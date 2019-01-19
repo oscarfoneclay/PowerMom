@@ -166,7 +166,7 @@ $(document).ready(function() {
       $('[obj-name="B25Back"]').hide(); // Block#: 5z/DT,1Wan_^=W+3eig6
       $('[obj-name="B25Cancel"]').hide(); // Block#: T0aRvL?5;iIT8qEEkp[J
       $('[obj-name="B25Next"]').hide(); // Block#: o?q%,*S|;3][b32k!m{}
-      $('[obj-name="B25Skip"]').hide(); // Block#: rYCREQli|4%FDh~7:Pt#
+      $('[obj-name="B25Skip"]').hide(); // Block#: p~/=}^c0gHUrA5UZMUKL
       $('[obj-name="L25Title"]').hide();
     });
   }
@@ -229,15 +229,15 @@ $(document).ready(function() {
    */
   function S23HideObjects() {
     return new Promise(function(resolve, reject) {
-      // Block#: ztv$,DDhpW6OHmK3!0fV
-      $('[obj-name="B23Back"]').hide(); // Block#: gyVngfq@()*8/{oX5yM[
-      $('[obj-name="B23Cancel"]').hide(); // Block#: (2oD!AkbEg@:zn;=P-^7
-      $('[obj-name="B23Skip"]').hide(); // Block#: bc~M#-b.m6tE%@avFY-b
-      $('[obj-name="B23Next"]').hide(); // Block#: XE92Jx:j.CPMDLodEz4m
+      // Block#: /b)*3CAXdfXcl*R$n{Nd
+      $('[obj-name="B23Back"]').hide(); // Block#: bt_pxj_+kfj871},liuh
+      $('[obj-name="B23Cancel"]').hide(); // Block#: mr|6Ri3G#%Rvbl37Dj}w
+      $('[obj-name="B23Skip"]').hide(); // Block#: 65GL%{nMzQM/+!kML}2N
+      $('[obj-name="B23Next"]').hide(); // Block#: RdJ-fE/bq4{Q!{5Kd$+k
       $('[obj-name="L23Units"]').hide(); // Block#: e,::f[RWrQ84jG{oh/cT
       $('[obj-name="L23Title"]').hide(); // Block#: g6NE!J=bgv$8OWFf7dTG
-      $('[obj-name="L23Error"]').hide(); // Block#: NnO]0fsw`OA0Z=,`pJW*
-      $('[obj-name="L23Question"]').hide(); // Block#: NUh/~kW4~:D#.m9r?RB!
+      $('[obj-name="L23Error"]').hide(); // Block#: cF-s@5N_%{bU=v4^}jHD
+      $('[obj-name="L23Question"]').hide(); // Block#: k5p/:p]#Sd=i{DkNSZYO
       $('[obj-name="T23Text"]').hide();
     });
   }
@@ -269,7 +269,7 @@ $(document).ready(function() {
       // Block#: XNZ.o/;j|QMQgV;Bx)qX
       S25HideObjects().then(response => {;
       });
-      // Block#: G*T3Rfd6v~@9C}}LTCGc
+      // Block#: NguYkygs;IZ#TW54jGXA
       _that.currentProperty = getOutcomeName('B25BNone');
       // Block#: H7l93EXwC2At(68h:CfA
       if(_that.currentProperty != null) {
@@ -279,42 +279,42 @@ $(document).ready(function() {
       }
       // Block#: gsx|%?X%p3}p+IEfZo4k
       _that.currentProperty = getOutcomeName('B25Back');
-      // Block#: a$sJMdPcZ5:K3XF]{0/C
+      // Block#: A|:FS]B^%Udqy*ZJBPRH
       if(_that.currentProperty != null) {
-        // Block#: ?]9#|R=1{{nxU2,dvuK,
+        // Block#: l184OyG1oI,nHcWy@C~o
         $('[obj-name="B25Back"]').show(); // Block#: v5(^Ba*3-;OQmi)C%*Zs
         com.fc.JavaScriptDistLib.Button.setProperty["Text"]("B25Back", _that.currentProperty);
       }
-      // Block#: OA2=(m4ad=6T^IAh8zC1
+      // Block#: .Z3mZ5qY5y(a+}q^y|3X
       _that.currentProperty = getOutcomeName('B25Cancel');
-      // Block#: :2h[b3?5E.^xcDtl{3r2
+      // Block#: rI3*M$+Q,{Q=CD*/n_`i
       if(_that.currentProperty != null) {
-        // Block#: twyrTJ})9,%rT;MJa0n)
-        $('[obj-name="B25Cancel"]').show(); // Block#: ~Z]sg6)%*ds-1~~q;cp2
+        // Block#: +,c;`Jmlo/P1Jj1|(EmN
+        $('[obj-name="B25Cancel"]').show(); // Block#: 0%-e=]3%^P(vnr6`2`C!
         com.fc.JavaScriptDistLib.Button.setProperty["Text"]("B25Cancel", _that.currentProperty);
       }
-      // Block#: zL=a`hO(x0$?8SUSsiqr
+      // Block#: mbjx;]-~8Z?osH8VfsMk
       _that.currentProperty = getOutcomeName('B25Next');
-      // Block#: FNVr:C75*^XRQ]rw~7{~
+      // Block#: zM|wP,L`{3!4!M~[9[GE
       if(_that.currentProperty != null) {
-        // Block#: A$7oA`8tEg0`^!p7!#g(
-        $('[obj-name="B25Next"]').show(); // Block#: l$]U*DH/njN(NJ6PLSOC
+        // Block#: %dSX|+/Im-:LjphhgF|s
+        $('[obj-name="B25Next"]').show(); // Block#: B:G@Bo^@G(`xgCd]Kuuv
         com.fc.JavaScriptDistLib.Button.setProperty["Text"]("B25Next", _that.currentProperty);
       }
-      // Block#: iqEQk-Q@hRT07}w.fiv4
+      // Block#: w)%MJ4TqVhVibh29F*qw
       _that.currentProperty = getOutcomeName('B25Skip');
-      // Block#: g=|#H#:c=J$(VW[eY-{H
+      // Block#: ^}wfeY0o=]z@3-K[v9SK
       if(_that.currentProperty != null) {
-        // Block#: k7#YatiFMKBK6f(oi~Z_
-        $('[obj-name="B25Skip"]').show(); // Block#: (%`DV$Z.a4:R/3=~/=W]
+        // Block#: (L]8u,I%e7=K:84xsfoW
+        $('[obj-name="B25Skip"]').show(); // Block#: o8kLa1.=i[iTM;DTE0qF
         com.fc.JavaScriptDistLib.Button.setProperty["Text"]("B25Skip", _that.currentProperty);
       }
-      // Block#: g0X/]-v:Fxc.[f^rm?kF
+      // Block#: c8tK`p~lnkntJ!Ui%Ajk
       _that.currentProperty = getFormProperty('title');
-      // Block#: Ryyc%:bHl_GAWFKP]X|z
+      // Block#: 3^Z)|?r^8!v.BluJcn_T
       if(_that.currentProperty != null) {
-        // Block#: O2ikIf3Zq}S_LR_.Lq~(
-        $('[obj-name="L25Title"]').show(); // Block#: BZv-r9qK*%tKz)K/_C|V
+        // Block#: []NarR2!m$tY,gY,s~R|
+        $('[obj-name="L25Title"]').show(); // Block#: K*m;T8`{9/baCs^/k*1%
         com.fc.JavaScriptDistLib.Label.setProperty["Text"]("L25Title", _that.currentProperty);
       }
       // Block#: N{UE3#eA%xtbw4oDyu;#
@@ -1182,43 +1182,43 @@ $(document).ready(function() {
       // Block#: do:79G}@IH(vyadbBZ}7
       S23HideObjects().then(response => {;
       });
-      // Block#: FNmtEzcrH$xgWU~dU`]@
+      // Block#: 3@x`3l-^HW+!%f!SpT^~
       _that.currentProperty = getOutcomeName('B23Back');
-      // Block#: hUw420v?;Qs*[l@vBlJ5
+      // Block#: T(nR)YJ7n}8*i_#wD(ON
       if(_that.currentProperty != null) {
-        // Block#: ^.BJQHj@s2!546a=,-##
+        // Block#: llhwX1KWO%dol*QW%KAn
         $('[obj-name="B23Back"]').show();
       }
-      // Block#: $=ZewtJkbV}z`.iO|Y{c
+      // Block#: gFg^i*wujQkBYvoWo}k.
       _that.currentProperty = getOutcomeName('B23Cancel');
-      // Block#: OEMWI{ow.2:@#YJfvNQm
+      // Block#: ;]3DlSzfLh,S!z226[VZ
       if(_that.currentProperty != null) {
-        // Block#: tAUP)9ASk?7-Uf_{Xq(Q
-        $('[obj-name="B23Cancel"]').show(); // Block#: pF$88H[Gpak}Mn|z;oJL
+        // Block#: w]EjaX.|RB1[F@gCGLaB
+        $('[obj-name="B23Cancel"]').show(); // Block#: X#Lo[GBG1wg*XQ/Vx3eM
         com.fc.JavaScriptDistLib.Button.setProperty["Text"]("B23Cancel", _that.currentProperty);
       }
-      // Block#: }Um)]7LR1g3**owZgX,N
+      // Block#: *XN$Okxh-zIA@(_:Nx@5
       _that.currentProperty = getOutcomeName('B23Next');
-      // Block#: eH59)hN_Im7}i_mH@x/`
+      // Block#: F[FM)%JKF{e~.#Jk40`|
       if(_that.currentProperty != null) {
-        // Block#: @()j{n`!7Wd*aru)a}9:
-        $('[obj-name="B23Next"]').show(); // Block#: LA1JWZXk%1^@vl]/k$DC
+        // Block#: ~3q@uj-G;^IO5wwmlquM
+        $('[obj-name="B23Next"]').show(); // Block#: mMM216rG|k({`Omb`Ozt
         com.fc.JavaScriptDistLib.Button.setProperty["Text"]("B23Next", _that.currentProperty);
       }
-      // Block#: aa)7](-Z3fTT91uM^wvH
+      // Block#: +m|`2-gJ`8*oO:J{PX{x
       _that.currentProperty = getOutcomeName('B23Skip');
-      // Block#: c7k:^P+y7%HaI3j=Y(*/
+      // Block#: zX,t*UyH2JP/~[0nz7Ms
       if(_that.currentProperty != null) {
-        // Block#: `|oCHU/o_=Ph[O^.L*e}
-        $('[obj-name="B23Skip"]').show(); // Block#: #.a[|qs.;QOxA;7|*/2Y
+        // Block#: Lw3,o?nfzv`j0{tg7gV|
+        $('[obj-name="B23Skip"]').show(); // Block#: 6Pi-W#/J6Y}7@u)4FOIb
         com.fc.JavaScriptDistLib.Button.setProperty["Text"]("B23Skip", _that.currentProperty);
       }
-      // Block#: 5!,MpZ.k00gL^2QkdVRS
+      // Block#: lmYSYl!Ai_I-A]0W8bwP
       _that.currentProperty = getFormProperty('title');
-      // Block#: D%=okG8?0`M8{Xja0D4G
+      // Block#: 6}/,J@kiBf0cAm^ibl-6
       if(_that.currentProperty != null) {
-        // Block#: oAN4z~K=wn~DYs9Fs4h6
-        $('[obj-name="L23Title"]').show(); // Block#: rO!$DwemNo2GUIn{TQC4
+        // Block#: .w7zIH88?WYkSHf6{#v6
+        $('[obj-name="L23Title"]').show(); // Block#: wFf*s2*o@#8P_v|Lg2%Q
         com.fc.JavaScriptDistLib.Label.setProperty["Text"]("L23Title", _that.currentProperty);
       }
       // Block#: [5JwiDaJ$Y`lduby:5/p
@@ -1228,15 +1228,15 @@ $(document).ready(function() {
         // Block#: KmhD,A?og={B!VNC3DBZ
         com.fc.JavaScriptDistLib.Label.setProperty["Text"]("L23Error", _that.currentProperty);
       }
-      // Block#: @aVTM].0_i9f=wv3S?1F
+      // Block#: hl~yycHOTwtG|n+o{KrU
       _that.currentProperty = getFormProperty('L23Units');
-      // Block#: u^4@i5Lj)|3(XX(Xq;xx
+      // Block#: syAH;ze@,c1){.`$c~zE
       if(_that.currentProperty != null) {
-        // Block#: cKYN=vPfPb^aX#l.hVfX
-        $('[obj-name="L23Units"]').show(); // Block#: hBU8`N_Wf;+Ea`dlS;^U
+        // Block#: `Y0B!y;~gu25w[U44YV]
+        $('[obj-name="L23Units"]').show(); // Block#: q1+]HDI+_cC^Dz6YqBJ7
         com.fc.JavaScriptDistLib.Label.setProperty["Text"]("L23Units", _that.currentProperty);
       }
-      // Block#: t[!@M]-O5N}pe`Q_-;$I
+      // Block#: LI.uv)L6aE5mUZxn|ru.
       _that.inputType = getFormField('answer1', 'type');
       // Block#: $By8OpH`3hJPrlBw%25K
       console.log(String('Answer Type') + String(_that.inputType));
@@ -1244,8 +1244,8 @@ $(document).ready(function() {
         _that.debugService.traces.push(String('Answer Type') + String(_that.inputType));
         _that.debugService.printLog();
       }
-      // Block#: N*+M!4JDzVEf;7/ugeia
-      $('[obj-name="L23Question"]').show(); // Block#: abyAIG7^V|MtO{r)S{H,
+      // Block#: kDlB%ix78sm1w~tdl8Ee
+      $('[obj-name="L23Question"]').show(); // Block#: $Dg2cs+`$io;oB{cZt_E
       com.fc.JavaScriptDistLib.Label.setProperty["Text"]("L23Question", (getFormField('answer1', 'name'))); // Block#: [pOXKX39XV6Vy7UpqnBc
       if(com.fc.JavaScriptDistLib.TextLib.textComparison(_that.inputType, "EQUAL", 'text')) {
         // Block#: UfUs].P4zx-0tuZ:!?Sr
@@ -1257,7 +1257,7 @@ $(document).ready(function() {
           _that.selectionMade = true;
         }
       }
-      // Block#: Jfus$_=F~lHUc$78!,P}
+      // Block#: A)Eb,HhaAm4rWL@)Jwks
       $('[obj-name="T23Text"]').show(); // Block#: bs^xVQx2lHWJ6H}e]tn9
       _that.currentProperty = getFormProperty('validationType');
       // Block#: @Kej8{_mbZ3a}@]3#^$z
@@ -1272,7 +1272,7 @@ $(document).ready(function() {
         }
         // Block#: I(OQT#;5a:O`xP_+l0n$
         if(com.fc.JavaScriptDistLib.TextLib.textComparison(_that.validationType, "EQUAL", '2digits')) {
-          // Block#: Ub=$o/JO#!;~OKFupM3p
+          // Block#: B$+V+Iu#_wW(_Wk^?mi_
           com.fc.JavaScriptDistLib.Textbox.setProperty["Input type"]("T23Text", 'numeric'); // Block#: =%oovL$+JErc#D;ku~9U
           com.fc.JavaScriptDistLib.Textbox.setProperty["Max chars"]("T23Text", 2);
         } else if(com.fc.JavaScriptDistLib.TextLib.textComparison(_that.validationType, "EQUAL", '3digits')) {
@@ -2606,38 +2606,38 @@ $(document).ready(function() {
    */
   function HealthDashboardLib__authorize2(dataTypesList) {
     return new Promise(function(resolve, reject) {
-      // Block#: 28;:`.Lw|RMZY9.B$UL0
+      // Block#: dX5SCAk|I%Z*Uj]]GV?=
       if(com.fc.JavaScriptDistLib.HealthKit.isAvailable()) {
-        // Block#: (NUD~U+3@89`$c^)B%#?
+        // Block#: A}^;f7C~q5BOaf9p`]hd
         com.fc.JavaScriptDistLib.HealthKit.authorize(dataTypesList,
           function() {
-            // Block#: ?}_*:3r2|63,sXDCDi.k
-            com.fc.JavaScriptDistLib.Storage.add('isHealthKitAuthorized', true) // Block#: ubrU),vB|y^VKw(HAC,P
+            // Block#: h[|vs6GwDcbaI(]]_Z4~
+            com.fc.JavaScriptDistLib.Storage.add('isHealthKitAuthorized', true) // Block#: ]gr`@YzKIhy_`2@N)1De
             resolve({
               name: "success",
               data: null
             });
           },
           function(error_data) {
-            // Block#: j|36y4N.)=j8WHP%TrGO
+            // Block#: Sgs^2iFhFbE(#E|_dv)`
             resolve({
               name: "Error",
               data: error_data
             });
           });
       } else {
-        // Block#: C72zz5}JVMq}aF/RH3*+
+        // Block#: }AI7^6:vs;C!JPRTcZKj
         com.fc.JavaScriptDistLib.GoogleFit.authorize(dataTypesList, '1008513698691-l2u1m7poj7rm9q5si9dg3eklh03rdjn9.apps.googleusercontent.com', 'Y0EeQxWVPqa--zrY30QtP-r2', 'http://powermomapp.s3-website-us-east-1.amazonaws.com',
           function() {
-            // Block#: iO$n)lYL9tzGqbT+Il6H
-            com.fc.JavaScriptDistLib.Storage.add('isHealthKitAuthorized', false) // Block#: MW^]eP`XWXE{HmH78I1G
+            // Block#: Q:{3^:3wOXkO0FY+#uB)
+            com.fc.JavaScriptDistLib.Storage.add('isHealthKitAuthorized', false) // Block#: O?9LrK/^!^b2`s`ypDV*
             resolve({
               name: "success",
               data: null
             });
           },
           function(error_data) {
-            // Block#: hlvwl0md.mI7~Yp3cr|^
+            // Block#: vB2MG:%~I,hd5U#UnJUs
             resolve({
               name: "Error",
               data: error_data
@@ -2651,23 +2651,23 @@ $(document).ready(function() {
    */
   function HealthDashboardLib__fetchStepsFromHealthKit2() {
     return new Promise(function(resolve, reject) {
-      // Block#: c4OipeLEn,B|!S8r1/Bk
+      // Block#: ovKL8)l7E+.0F!OSqh0J
       _that.HealthDashboardLib_stepsreadings = [];
-      // Block#: 7w@9T_e#+DmU+Yf)nl|k
+      // Block#: U`S,JE^2yn33@yl4xw4b
       _that.HealthDashboardLib_endDate = (com.fc.JavaScriptDistLib.MomentLibrary());
-      // Block#: ~sBDgIzh$NBtKkXTZi?U
+      // Block#: #vDQ8My+ixQF);SqO0Nj
       _that.HealthDashboardLib_startDate = (com.fc.JavaScriptDistLib.TimeLibrary.subtractIntervalFromTime(_that.HealthDashboardLib_endDate, (com.fc.JavaScriptDistLib.TimeLibrary.createTimeInterval(0, 0, 0, 7, 0, 0))));
-      // Block#: H/9s%zMV45+ZZ!B/4:sn
+      // Block#: }YB{|XIuKSo`7mWF[.jh
       com.fc.JavaScriptDistLib.HealthKit.readHistoricalData(_that.HealthDashboardLib_startDate, _that.HealthDashboardLib_endDate, [('com.apple.step_count.delta')],
         function(data) {
-          // Block#: ;W.uh)qBcz*_3),Pe#31
+          // Block#: =*u(wU0_w3h^4JBh/y^G
           _that.HealthDashboardLib_stepsreadings = data;
-          // Block#: b5Feb7sBSkSPc/)/t8[]
+          // Block#: ed^k3L:t}o,zF^]N.QbT
           HealthDashboardLib__displaySteps().then(response => {;
           });
         },
         function(error_data) {
-          // Block#: f]hy!#(HenxRv=#w]b|H
+          // Block#: sDL`l1rffpz7N6vmON6L
           $('[obj-name="connectButton"]').show();
         });
     });
@@ -2677,70 +2677,70 @@ $(document).ready(function() {
    */
   function HealthDashboardLib__displaySteps2() {
     return new Promise(function(resolve, reject) {
-      // Block#: ,H(S^ER#jjH@$7d$*BQK
+      // Block#: e[dwMBz)ew+lUjfO1*4P
       if(com.fc.JavaScriptDistLib.HealthKit.isAvailable()) {
-        // Block#: a4{GhO;f#v[[~vv9WaIg
+        // Block#: +Q~Lgp:tfzW%:onCrojB
         if((com.fc.JavaScriptDistLib.Storage.getValue('isHealthKitAuthorized')) != null) {
-          // Block#: $vW1g8v[D[n2JIX*$m$8
+          // Block#: ]RgAbCyk^UX6N{.wBmkk
           if(com.fc.JavaScriptDistLib.Storage.getValue('isHealthKitAuthorized')) {
-            // Block#: DH)KMM?nX25sj4[nq[V8
+            // Block#: PqM*U^?z{ICskg/j2zE@
             $('[obj-name="connectButton"]').hide();
           }
         } else {
-          // Block#: `~P#}40,[:[^2TO)[^l/
+          // Block#: 5].z7s{8)iiPpR2i7A/t
           $('[obj-name="connectButton"]').show();
         }
       } else {
-        // Block#: 7-5rvDwdsenu_AZ1pXx^
+        // Block#: o|?bR.yLga,YSsZ=:97P
         if(com.fc.JavaScriptDistLib.GoogleFit.isAuthorized()) {
-          // Block#: c!kC8`qi}e^.fwlg[{yi
+          // Block#: GPx`dl0F4C{oy[zXOspu
           $('[obj-name="connectButton"]').hide();
         } else {
-          // Block#: dBXbJBW3J`Ne4RU_U629
+          // Block#: jEs_{ITTNCM7k-12QW)_
           $('[obj-name="connectButton"]').show();
         }
       }
-      // Block#: @8_KwI;sLw*(Pir(#kF4
+      // Block#: ]_]is~kgIeEu?99*HswZ
       if(com.fc.JavaScriptDistLib.MathLibrary.mathCompare(_that.HealthDashboardLib_stepsreadings.length, "GT", 0)) {
-        // Block#: O?LZ$H}6vtkW;OfxS5dP
+        // Block#: 7kmLVZSu%|y7zUF.x=aw
         _that.HealthDashboardLib_stepsdays = (com.fc.JavaScriptDistLib.JSON.parseJSONDataForPath(_that.HealthDashboardLib_stepsreadings, String('$.[*].') + String('startdate')));
-        // Block#: BDP}z7w^pv[j-E|r_;(n
+        // Block#: |,vvWs?RrD:tdOzE)|ai
         var index_end12 = _that.HealthDashboardLib_stepsdays.length - 1;
         var index_inc12 = 1;
         if(0 > index_end12) {
           index_inc12 = -index_inc12;
         }
         for(index = 0; index_inc12 >= 0 ? index <= index_end12 : index >= index_end12; index += index_inc12) {
-          // Block#: Xll5.0$m(M3SE]pBvn{|
+          // Block#: 0|@ApCeUlkk@yq^W:*pP
           _that.HealthDashboardLib_stepsdays[index] = (com.fc.JavaScriptDistLib.TimeLibrary.textFromTime((com.fc.JavaScriptDistLib.TimeLibrary.createTimeFromTimestamp((_that.HealthDashboardLib_stepsdays[index]))), "DATE_US"));
         }
-        // Block#: V_#o1[V}%=$nF|iY9U_T
+        // Block#: 6:l+~./=2m-*QaR^]ZEI
         _that.HealthDashboardLib_stepscount = (com.fc.JavaScriptDistLib.JSON.parseJSONDataForPath(_that.HealthDashboardLib_stepsreadings, String('$.[*].') + String('steps')));
-        // Block#: lc_R!/STnwNe@Go{^^k1
+        // Block#: )y[dPM+aOfkFo1AvtoMY
         _that.HealthDashboardLib_stepsplot = (com.fc.JavaScriptDistLib.GraphContainer.createChartWithList('stepsgraph', _that.HealthDashboardLib_stepsdays, _that.HealthDashboardLib_stepscount, 'steps'));
-        // Block#: Mc]xj)agWk!z.7eAZ|C4
-        _that.HealthDashboardLib_stepsplot // Block#: _R[GS_IuUHF7v*m5I//!
+        // Block#: *B3Ej:5/.h0@m9WaqIH=
+        _that.HealthDashboardLib_stepsplot // Block#: M1rb8^ohRY#(NM:0+CR!
         com.fc.JavaScriptDistLib.GraphContainer.addChartTransition('stepsgraph', 500, 500); // Imported from Lib: StatisticsLibrary
-        // Block#: X-?J/F;gyxr6G)U`QPWm
+        // Block#: B0Z*bmXYMqO:`iFOl[3_
         HealthDashboardLib__StatisticsLibrary__average(_that.HealthDashboardLib_stepscount).then(response => {;
           if(response.name === "value") {
-            // Block#: y@]PnTQEcW;rH](OTVin
+            // Block#: SxX,XcZ;}tqMCWy{I(IQ
             com.fc.JavaScriptDistLib.Label.setProperty["Text"]("avgreadingvalue", (com.fc.JavaScriptDistLib.TextLib.convertToText(Math.round(response.data))));
           }
         });
         // Imported from Lib: StatisticsLibrary
-        // Block#: B`u6.;kTYBc2_xF0KHqq
+        // Block#: gVl],Noq?acVEgT2@n19
         HealthDashboardLib__StatisticsLibrary__max(_that.HealthDashboardLib_stepscount).then(response => {;
           if(response.name === "value") {
-            // Block#: by1Iv]~G,#3K`lI!*nM9
+            // Block#: 3.J`c`#9SqI.!R)fo+m$
             com.fc.JavaScriptDistLib.Label.setProperty["Text"]("maxreadingvalue", (com.fc.JavaScriptDistLib.TextLib.convertToText(response.data)));
           }
         });
         // Imported from Lib: StatisticsLibrary
-        // Block#: tjwEgj6g~@J*MksRbIMq
+        // Block#: ZclKE:0xV2UcUu2fuAB`
         HealthDashboardLib__StatisticsLibrary__min(_that.HealthDashboardLib_stepscount).then(response => {;
           if(response.name === "value") {
-            // Block#: fa~~l$@3xk1%B:wkU0ND
+            // Block#: ~c^BhjQa9OwGHinXvG/+
             com.fc.JavaScriptDistLib.Label.setProperty["Text"]("minreadingvalue", (com.fc.JavaScriptDistLib.TextLib.convertToText(response.data)));
           }
         });
@@ -2752,23 +2752,23 @@ $(document).ready(function() {
    */
   function HealthDashboardLib__StatisticsLibrary__average2(list) {
     return new Promise(function(resolve, reject) {
-      // Block#: 5BoK(mCqsArzl^5TXj3{
+      // Block#: J;A)(}EHL1UWSg/2yJ)U
       _that.HealthDashboardLib_StatisticsLibrary_averageValue = 0;
-      // Block#: ZdV^j3zQjbiQh1Zd/Hj#
+      // Block#: X6nPljrTc76lXuGr0+|3
       var index_end13 = list.length - 1;
       var index_inc13 = 1;
       if(0 > index_end13) {
         index_inc13 = -index_inc13;
       }
       for(index = 0; index_inc13 >= 0 ? index <= index_end13 : index >= index_end13; index += index_inc13) {
-        // Block#: ks22PUjHq,$n$vrPWd8]
+        // Block#: -.U`Me/=;5,cZv=.g6PU
         _that.HealthDashboardLib_StatisticsLibrary_averageValue = _that.HealthDashboardLib_StatisticsLibrary_averageValue + list[index];
       }
-      // Block#: #s9qZg};Hl*Ffu9aX$Jo
+      // Block#: ~[?Ad,QFh~wq9|R24hI_
       if(list.length != 0) {
-        // Block#: j2%.|~V=m{9fg(PThc=z
+        // Block#: -4`;@G?J(pCPPuw]0M/}
         _that.HealthDashboardLib_StatisticsLibrary_averageValue = _that.HealthDashboardLib_StatisticsLibrary_averageValue / list.length;
-        // Block#: Z[aZZo_)oWCwu3:_0mzg
+        // Block#: -MFPtU`QbNNUAqp$O*ds
         resolve({
           name: "value",
           data: _that.HealthDashboardLib_StatisticsLibrary_averageValue
@@ -2781,22 +2781,22 @@ $(document).ready(function() {
    */
   function HealthDashboardLib__StatisticsLibrary__max2(list) {
     return new Promise(function(resolve, reject) {
-      // Block#: CJ-J,j?,}!W0C#w0*f}x
+      // Block#: 5cZKB6q_5Q%UHz]$*Z!q
       _that.HealthDashboardLib_StatisticsLibrary_maxValue = list[0];
-      // Block#: %7ko=^2.!sBL3.j%=#)v
+      // Block#: J/n@,~d.9v@qwf)CS=0Z
       var index_end14 = list.length - 1;
       var index_inc14 = 1;
       if(0 > index_end14) {
         index_inc14 = -index_inc14;
       }
       for(index = 0; index_inc14 >= 0 ? index <= index_end14 : index >= index_end14; index += index_inc14) {
-        // Block#: r-VCx?%06+3X;h8oLg;r
+        // Block#: b8DDw]b]%n0YLgrb4Oet
         if(com.fc.JavaScriptDistLib.MathLibrary.mathCompare(list[index], "GT", _that.HealthDashboardLib_StatisticsLibrary_maxValue)) {
-          // Block#: O!J,I6c?5f*b%3x9ax_^
+          // Block#: vK,Fy#j+Ux-}W9x%h5i=
           _that.HealthDashboardLib_StatisticsLibrary_maxValue = list[index];
         }
       }
-      // Block#: z_0R_ZzF$$3W$~vpV0W:
+      // Block#: VvR6.[t#$Xbv)RC9Q#}r
       resolve({
         name: "value",
         data: _that.HealthDashboardLib_StatisticsLibrary_maxValue
@@ -2808,22 +2808,22 @@ $(document).ready(function() {
    */
   function HealthDashboardLib__StatisticsLibrary__min2(list) {
     return new Promise(function(resolve, reject) {
-      // Block#: _JTg]hw0|9nq7Ky.1*UK
+      // Block#: AR5=_XC!P_:UptPub(Id
       _that.HealthDashboardLib_StatisticsLibrary_minValue = list[0];
-      // Block#: zdnPQ86mTsRMR0o^`E5}
+      // Block#: +0WB?(?yWQsE*u#@V`((
       var index_end15 = list.length - 1;
       var index_inc15 = 1;
       if(0 > index_end15) {
         index_inc15 = -index_inc15;
       }
       for(index = 0; index_inc15 >= 0 ? index <= index_end15 : index >= index_end15; index += index_inc15) {
-        // Block#: !BjU{z}})*G@k)j=AL7L
+        // Block#: |@h1W6pOo@G4-CA1OByY
         if(com.fc.JavaScriptDistLib.MathLibrary.mathCompare(list[index], "LT", _that.HealthDashboardLib_StatisticsLibrary_minValue)) {
-          // Block#: `wTCBx2RQ}]bi.eXl%zs
+          // Block#: w0=l0={.Azl6Iq$W^]c*
           _that.HealthDashboardLib_StatisticsLibrary_minValue = list[index];
         }
       }
-      // Block#: 6D#qvmiF4GSS}YWaoepm
+      // Block#: 3/4.o2.KL|8n$2]^4aYJ
       resolve({
         name: "value",
         data: _that.HealthDashboardLib_StatisticsLibrary_minValue
@@ -2835,28 +2835,28 @@ $(document).ready(function() {
    */
   function HealthDashboardLib__fetchStepsFromGoogleFit2() {
     return new Promise(function(resolve, reject) {
-      // Block#: v!t-(7T,YMPfvLhD-Sg0
+      // Block#: YAuxy1XmLA?o(z}oi=o-
       _that.HealthDashboardLib_stepsreadings = [];
-      // Block#: #Z]HK@ns].{cKnIb^c4J
+      // Block#: lk7:I7$EK#|TNRfliyz4
       _that.HealthDashboardLib_endDate = (com.fc.JavaScriptDistLib.MomentLibrary());
-      // Block#: aem#!4ljz8QJz%d_wYLQ
+      // Block#: kP#bO@Ca5S#8qN:(_{hc
       _that.HealthDashboardLib_startDate = (com.fc.JavaScriptDistLib.TimeLibrary.subtractIntervalFromTime(_that.HealthDashboardLib_endDate, (com.fc.JavaScriptDistLib.TimeLibrary.createTimeInterval(0, 0, 0, 7, 0, 0))));
-      // Block#: 56zmLk[zHMo56yO4)/?V
+      // Block#: d6.iV~]!ZmH[JNi!:?~/
       let _startDate = _that.HealthDashboardLib_startDate,
         _endDate = _that.HealthDashboardLib_endDate;
       if(!(_startDate instanceof Date)) _startDate = _startDate.toDate();
       if(!(_endDate instanceof Date)) _endDate = _endDate.toDate();
       com.fc.JavaScriptDistLib.GoogleFit.readHistoricalData(_startDate, _endDate, [('com.google.step_count.delta')],
         function(data) {
-          // Block#: re.i{hqS8ycw*_b5164+
+          // Block#: *rncTFOBJW*%V]]a;g7u
           _that.HealthDashboardLib_stepsreadings = data;
-          // Block#: r%M*rwyZKW(Z,8YPzCKu
+          // Block#: o,0DrKsx@,iqWlTH3wIT
           HealthDashboardLib__displaySteps().then(response => {;
           });
         },
         function(error_data) {
-          // Block#: ,z|djV?qfy*uBqIZ{)3H
-          $('[obj-name="connectButton"]').show(); // Block#: c(?HY*;1?mIxT-vWGYeH
+          // Block#: FSMibR~/M+}]sVoJS3[A
+          $('[obj-name="connectButton"]').show(); // Block#: Fi@+u64x`Vl1!3s~Ec0f
           com.fc.JavaScriptDistLib.GoogleFit.deAuthorize();
         });
     });
@@ -2866,80 +2866,80 @@ $(document).ready(function() {
    */
   function HealthDashboardLib__displayBP2() {
     return new Promise(function(resolve, reject) {
-      // Block#: WSA2Oy.4y-R)IO%Jg$@B
+      // Block#: q$joFA1)a;$PAb=U|2Y0
       if(com.fc.JavaScriptDistLib.MathLibrary.mathCompare(_that.HealthDashboardLib_bpsystolicreadings.length, "GT", 0)) {
-        // Block#: 1PN8zXGS19{:Iv-;{3nq
+        // Block#: nFo:0gCAVG$9]*qu#00Q
         _that.HealthDashboardLib_bpdaysclean = [];
-        // Block#: 5UTcZ;[iS+kYtGZ%655i
+        // Block#: P!.|cF(-KVD`9d!f?FX|
         _that.HealthDashboardLib_bysystoliclistclean = [];
-        // Block#: kz;o+S1-h@a/T4yzgSm)
+        // Block#: ^Wh7awF{Dzmjdy~bma6W
         _that.HealthDashboardLib_bpdiastoliclistclean = [];
-        // Block#: 36@X9SGI|A]?L*@VHL/=
+        // Block#: CPFlw4aCUmCb(-:b?B;`
         _that.HealthDashboardLib_bpsystolicdays = (com.fc.JavaScriptDistLib.JSON.parseJSONDataForPath(_that.HealthDashboardLib_bpsystolicreadings, String('$.[*].') + String('timestamp')));
-        // Block#: Do)x)j_:nL[g;w3aqHQ}
+        // Block#: QgF*s;vmEQdd.32(5qS|
         _that.HealthDashboardLib_bpsystoliclist = (com.fc.JavaScriptDistLib.JSON.parseJSONDataForPath(_that.HealthDashboardLib_bpsystolicreadings, String('$.[*].') + String('value')));
-        // Block#: V]XHd6~-/E*anLsb*S!%
+        // Block#: *BgtGXO`i-bx,r%2C*Yc
         _that.HealthDashboardLib_bpdiastolicdays = (com.fc.JavaScriptDistLib.JSON.parseJSONDataForPath(_that.HealthDashboardLib_bpdiastolicreadings, String('$.[*].') + String('timestamp')));
-        // Block#: CUp{y%bHR|;X)wkP=n)P
+        // Block#: ,,wkJkkEhF8rd_jmE6~[
         _that.HealthDashboardLib_bpdiastoliclist = (com.fc.JavaScriptDistLib.JSON.parseJSONDataForPath(_that.HealthDashboardLib_bpdiastolicreadings, String('$.[*].') + String('value')));
-        // Block#: c(c.m/E1FUo8(x_A$C]w
+        // Block#: avwjf~RW2/DoVhWR)gr;
         var index_end16 = _that.HealthDashboardLib_bpdiastolicdays.length - 1;
         var index_inc16 = 1;
         if(0 > index_end16) {
           index_inc16 = -index_inc16;
         }
         for(index = 0; index_inc16 >= 0 ? index <= index_end16 : index >= index_end16; index += index_inc16) {
-          // Block#: hplQ*~,hBO]7w7u)odM1
+          // Block#: QWvR@ath,VL9!#QiN#Jt
           _that.HealthDashboardLib_tempString = _that.HealthDashboardLib_bpdiastolicdays[index];
-          // Block#: }V2T9^2;oJm}sQ8giJFs
+          // Block#: ,M1PcZ(a@Z[heKX+q.c:
           if(com.fc.JavaScriptDistLib.ListLibrary.listContains(_that.HealthDashboardLib_bpsystolicdays, _that.HealthDashboardLib_tempString)) {
-            // Block#: V4#^FoZ*v(_TC4TzM3VM
+            // Block#: mBJ-Pi4+Rwe!:+-RNdv!
             com.fc.JavaScriptDistLib.ListLibrary.listAdd(_that.HealthDashboardLib_bpdaysclean, _that.HealthDashboardLib_tempString)
-            // Block#: `-:979YMC*)yH:MJlS9V
+            // Block#: ](*XQ`lOQLAXmD7j4UE?
             com.fc.JavaScriptDistLib.ListLibrary.listAdd(_that.HealthDashboardLib_bpdiastoliclistclean, _that.HealthDashboardLib_bpdiastoliclist[index])
           }
         }
-        // Block#: GmBIS$rZktPK-=)#n4L=
+        // Block#: As/hKE|RdK=jQ/;@/xqX
         var index_end17 = _that.HealthDashboardLib_bpsystolicdays.length - 1;
         var index_inc17 = 1;
         if(0 > index_end17) {
           index_inc17 = -index_inc17;
         }
         for(index = 0; index_inc17 >= 0 ? index <= index_end17 : index >= index_end17; index += index_inc17) {
-          // Block#: ++T,H:y3C|ZDLMFe~@@L
+          // Block#: EY7eg_,=)=coEfmWmWcd
           _that.HealthDashboardLib_tempString = _that.HealthDashboardLib_bpsystolicdays[index];
-          // Block#: ?g^3xI)0nq.CF%Qzh1~A
+          // Block#: [M12a/7;^0ochqzM/2{|
           if(com.fc.JavaScriptDistLib.ListLibrary.listContains(_that.HealthDashboardLib_bpdaysclean, _that.HealthDashboardLib_tempString)) {
-            // Block#: -!bK}T:BJO:|6yA~yeGQ
+            // Block#: 0?qP`ESkpyp(j`EgW=}4
             com.fc.JavaScriptDistLib.ListLibrary.listAdd(_that.HealthDashboardLib_bysystoliclistclean, _that.HealthDashboardLib_bpsystoliclist[index])
           }
         }
-        // Block#: Co+2($7^-+@^ifzu/P#O
+        // Block#: =U{74UTF7S9,S}a/n83L
         _that.HealthDashboardLib_bpsystolicplot = (com.fc.JavaScriptDistLib.GraphContainer.createChartWithList('bpgraph', _that.HealthDashboardLib_bpdaysclean, _that.HealthDashboardLib_bysystoliclistclean, 'bpsystolic'));
-        // Block#: Jl/)z5P5+YPLwT$4W=aM
+        // Block#: 3u$I)R(.$px,xW{V#i~h
         _that.HealthDashboardLib_bpdiastolicplot = (com.fc.JavaScriptDistLib.GraphContainer.createChartWithList('bpgraph', _that.HealthDashboardLib_bpdaysclean, _that.HealthDashboardLib_bpdiastoliclistclean, 'bpdiastolic'));
-        // Block#: Q?Xsen1w|z+xhmk#Wz:#
+        // Block#: ]e8;!P3#Tq:i9;ay{J]g
         console.log(com.fc.JavaScriptDistLib.TextLib.convertToText(_that.HealthDashboardLib_bpdaysclean));
         if(_that.debugService && _that.debugService.active) {
           _that.debugService.traces.push(com.fc.JavaScriptDistLib.TextLib.convertToText(_that.HealthDashboardLib_bpdaysclean));
           _that.debugService.printLog();
         }
-        // Block#: o9C#gO!S]^{^VQMxtLi+
+        // Block#: a6BTbvSI[HL{{qN?pud^
         console.log(com.fc.JavaScriptDistLib.TextLib.convertToText(_that.HealthDashboardLib_bysystoliclistclean));
         if(_that.debugService && _that.debugService.active) {
           _that.debugService.traces.push(com.fc.JavaScriptDistLib.TextLib.convertToText(_that.HealthDashboardLib_bysystoliclistclean));
           _that.debugService.printLog();
         }
-        // Block#: u]F(#gP`--jUY?~UR*~V
+        // Block#: `L-T,?I4tf#Y@5g*5W7f
         console.log(com.fc.JavaScriptDistLib.TextLib.convertToText(_that.HealthDashboardLib_bpdiastoliclistclean));
         if(_that.debugService && _that.debugService.active) {
           _that.debugService.traces.push(com.fc.JavaScriptDistLib.TextLib.convertToText(_that.HealthDashboardLib_bpdiastoliclistclean));
           _that.debugService.printLog();
         }
-        // Block#: C(.#ODjpITftU3/l_W}m
-        _that.HealthDashboardLib_bpsystolicplot // Block#: K[06w^}m3r*IRDi@svK%
-        _that.HealthDashboardLib_bpdiastolicplot // Block#: LIx[Cvo?9y65i%nPK$%^
-        com.fc.JavaScriptDistLib.GraphContainer.addChartTransition('bpgraph', 500, 500); // Block#: X%`=lQ0-DUy#}0H`{fPC
+        // Block#: -c2WKFN.HA-s!ZS[!/:O
+        _that.HealthDashboardLib_bpsystolicplot // Block#: 4Hyu[8iU~,Y;j]*Pmos5
+        _that.HealthDashboardLib_bpdiastolicplot // Block#: KEW#vB/iQJAR}S7{]@Xq
+        com.fc.JavaScriptDistLib.GraphContainer.addChartTransition('bpgraph', 500, 500); // Block#: 3t4$6zB17[x4:gK;0Bo.
         HealthDashboardLib__computeStatsForBP().then(response => {;
         });
       }
@@ -2951,48 +2951,48 @@ $(document).ready(function() {
   function HealthDashboardLib__computeStatsForBP2() {
     return new Promise(function(resolve, reject) {
       // Imported from Lib: StatisticsLibrary
-      // Block#: =9Qiz)/?N(KbNdS9RR9-
+      // Block#: tJv;MU1WT`xJ}E#y|,5C
       HealthDashboardLib__StatisticsLibrary__average(_that.HealthDashboardLib_bpsystoliclist).then(response => {;
         if(response.name === "value") {
-          // Block#: -_p3/d}!Yta9n^/2Y(=m
+          // Block#: c;Uk=,v{[11)$DCI8YZx
           _that.HealthDashboardLib_avgsystolic = (com.fc.JavaScriptDistLib.TextLib.convertToText(Math.round(response.data)));
           // Imported from Lib: StatisticsLibrary
-          // Block#: 20/jUu}8K5)6@_C[FuA:
+          // Block#: :!W,x8ie#w6]71x4#@gM
           HealthDashboardLib__StatisticsLibrary__average(_that.HealthDashboardLib_bpdiastoliclist).then(response => {;
             if(response.name === "value") {
-              // Block#: y2VyE3A1L}7S~ozRPdtV
+              // Block#: /H3zES.%r8.E-}z1R%n2
               com.fc.JavaScriptDistLib.Label.setProperty["Text"]("avgbpvalue", ([_that.HealthDashboardLib_avgsystolic, '/', (com.fc.JavaScriptDistLib.TextLib.convertToText(Math.round(response.data)))].join('')));
             }
           });
         }
       });
       // Imported from Lib: StatisticsLibrary
-      // Block#: K!PfxqaIhY|@jIBWm79v
+      // Block#: R*-MmE!^HB]+yASWaxNB
       HealthDashboardLib__StatisticsLibrary__max(_that.HealthDashboardLib_bpsystoliclist).then(response => {;
         if(response.name === "value") {
-          // Block#: ^@dh-WY]YQQo1(IyoN^l
+          // Block#: Mc)M#2CZdU|Nve/uD)Bo
           _that.HealthDashboardLib_maxsystolic = (com.fc.JavaScriptDistLib.TextLib.convertToText(Math.round(response.data)));
           // Imported from Lib: StatisticsLibrary
-          // Block#: q-fJA2fPwjrYV4-WexOd
+          // Block#: z;l))_][AEoAU(o,Qn(T
           HealthDashboardLib__StatisticsLibrary__max(_that.HealthDashboardLib_bpdiastoliclist).then(response => {;
             if(response.name === "value") {
-              // Block#: E-G@qo]I;S?`M7mwbIN=
+              // Block#: B6yE,/aK+UaDD-1h_d%@
               com.fc.JavaScriptDistLib.Label.setProperty["Text"]("maxbpvalue", ([_that.HealthDashboardLib_maxsystolic, '/', (com.fc.JavaScriptDistLib.TextLib.convertToText(Math.round(response.data)))].join('')));
             }
           });
         }
       });
       // Imported from Lib: StatisticsLibrary
-      // Block#: Bzc3Ki{Vnm([GucbMokS
+      // Block#: ;dwSY-3K?;}7}b6gqS,*
       HealthDashboardLib__StatisticsLibrary__min(_that.HealthDashboardLib_bpsystoliclist).then(response => {;
         if(response.name === "value") {
-          // Block#: O_x,yR0J[N.5{%=ll%E5
+          // Block#: @v5M5K~kJE(?Cx?o2B%3
           _that.HealthDashboardLib_minsystolic = (com.fc.JavaScriptDistLib.TextLib.convertToText(Math.round(response.data)));
           // Imported from Lib: StatisticsLibrary
-          // Block#: J4X6wXv?E|9+6u``t[b3
+          // Block#: _WPFsA]4K`lKN36qI?U~
           HealthDashboardLib__StatisticsLibrary__min(_that.HealthDashboardLib_bpdiastoliclist).then(response => {;
             if(response.name === "value") {
-              // Block#: GM7]6aJcfx4|mEdKx~l8
+              // Block#: j#w=1N+?$]~eyc$(brT^
               com.fc.JavaScriptDistLib.Label.setProperty["Text"]("minbpvalue", ([_that.HealthDashboardLib_minsystolic, '/', (com.fc.JavaScriptDistLib.TextLib.convertToText(Math.round(response.data)))].join('')));
             }
           });
@@ -3005,53 +3005,53 @@ $(document).ready(function() {
    */
   function HealthDashboardLib__displayWeight2() {
     return new Promise(function(resolve, reject) {
-      // Block#: afI]aWy[OWICZ4k5kSEf
+      // Block#: Aw%~?ngT1/QQzYyxox$5
       if(com.fc.JavaScriptDistLib.MathLibrary.mathCompare(_that.HealthDashboardLib_weightreadings.length, "GT", 0)) {
-        // Block#: ?4_SKxrTrUQ?p^%YvETq
+        // Block#: )EZ?RvHl#rNNWkJe)sz#
         _that.HealthDashboardLib_weightdays = (com.fc.JavaScriptDistLib.JSON.parseJSONDataForPath(_that.HealthDashboardLib_weightreadings, String('$.[*].') + String('timestamp')));
-        // Block#: $Sgv38.Xqb^Ca%Bb(6L1
+        // Block#: 03A:N%w;-]!l@En~s(z{
         _that.HealthDashboardLib_weightlist = (com.fc.JavaScriptDistLib.JSON.parseJSONDataForPath(_that.HealthDashboardLib_weightreadings, String('$.[*].') + String('value')));
-        // Block#: 6x(pz/]x/xC[stQSkkvN
+        // Block#: %y%tRnVf@id{I[PBKJPP
         var index_end18 = _that.HealthDashboardLib_weightlist.length - 1;
         var index_inc18 = 1;
         if(0 > index_end18) {
           index_inc18 = -index_inc18;
         }
         for(index = 0; index_inc18 >= 0 ? index <= index_end18 : index >= index_end18; index += index_inc18) {
-          // Block#: C=#NJX@e(nfauRfJ$XYZ
+          // Block#: #cA:wo4?KpU!~eE)1(_a
           _that.HealthDashboardLib_weightlist[index] = HealthDashboardLib__toPounds(_that.HealthDashboardLib_weightlist[index]);
         }
-        // Block#: ,(@Kq8rOX./gnd`h?b[v
+        // Block#: :l=DB2CtR?qFf,sM%l]O
         _that.HealthDashboardLib_weightplot = (com.fc.JavaScriptDistLib.GraphContainer.createChartWithList('weightgraph', _that.HealthDashboardLib_weightdays, _that.HealthDashboardLib_weightlist, 'weight'));
-        // Block#: otA(;LMo=r@I^eWEAgXP
+        // Block#: O:xP{9h,shF73W;;FlMz
         if(com.fc.JavaScriptDistLib.MathLibrary.mathCompare(_that.HealthDashboardLib_prePregnancyWeight, "GT", 0)) {
-          // Block#: ms]w#CGQgnRUI_=-J)wT
-          com.fc.JavaScriptDistLib.Label.setProperty["Text"]("InitialWeightLabel", 'Pre Pregnancy Weight'); // Block#: h;b7oSUOc+u#N{_LSv~w
+          // Block#: u~Gi1C{yxq9ePXzW%NR*
+          com.fc.JavaScriptDistLib.Label.setProperty["Text"]("InitialWeightLabel", 'Pre Pregnancy Weight'); // Block#: PPTDEVaIoqeAsVfU{4$u
           com.fc.JavaScriptDistLib.Label.setProperty["Text"]("InitialWeightValue", (com.fc.JavaScriptDistLib.TextLib.convertToText(_that.HealthDashboardLib_prePregnancyWeight)));
         } else {
-          // Block#: dBD|f@$41-a(VjD8Go}1
-          com.fc.JavaScriptDistLib.Label.setProperty["Text"]("InitialWeightLabel", 'Initial Weight'); // Block#: okjlMa5*+/-s^?#i*CkI
+          // Block#: ub+:zQ*MV=DoNldO0E^h
+          com.fc.JavaScriptDistLib.Label.setProperty["Text"]("InitialWeightLabel", 'Initial Weight'); // Block#: h,ANGY7rIalpr]9(PStK
           com.fc.JavaScriptDistLib.Label.setProperty["Text"]("InitialWeightValue", (com.fc.JavaScriptDistLib.TextLib.convertToText(Math.round(_that.HealthDashboardLib_weightlist[0]))));
         }
-        // Block#: k~b7HVpYE0P8a4}m!lve
-        com.fc.JavaScriptDistLib.Label.setProperty["Text"]("CurrentWeightValue", (com.fc.JavaScriptDistLib.TextLib.convertToText(Math.round(_that.HealthDashboardLib_weightlist.slice(-1)[0])))); // Block#: D05p5lYoNu$2$`hXg?c8
+        // Block#: n#$@+G-*8h1h:w6olSiT
+        com.fc.JavaScriptDistLib.Label.setProperty["Text"]("CurrentWeightValue", (com.fc.JavaScriptDistLib.TextLib.convertToText(Math.round(_that.HealthDashboardLib_weightlist.slice(-1)[0])))); // Block#: /V~OAX;NwMmZo}WVs$Kh
         _that.HealthDashboardLib_weightChange = Math.round((com.fc.JavaScriptDistLib.MathLibrary.toNumber(com.fc.JavaScriptDistLib.Label.getProperty["Text"]("CurrentWeightValue"))) - (com.fc.JavaScriptDistLib.MathLibrary.toNumber(com.fc.JavaScriptDistLib.Label.getProperty["Text"]("InitialWeightValue"))));
-        // Block#: xokuoVN{SLwei|sbQMSM
+        // Block#: OmB8S,N[kh)M*S;KHxUF
         if(com.fc.JavaScriptDistLib.MathLibrary.mathCompare(_that.HealthDashboardLib_weightChange, "GT", 0)) {
-          // Block#: ]|-5/@MO%-X{CgmmR|E;
-          com.fc.JavaScriptDistLib.Label.setProperty["Text"]("weightChangeValue", (com.fc.JavaScriptDistLib.TextLib.convertToText(_that.HealthDashboardLib_weightChange))); // Block#: 9)PgF~eDKXoIk7zA+67Y
+          // Block#: c:-=^uBGz|TLVM+4w{q,
+          com.fc.JavaScriptDistLib.Label.setProperty["Text"]("weightChangeValue", (com.fc.JavaScriptDistLib.TextLib.convertToText(_that.HealthDashboardLib_weightChange))); // Block#: Ir_GSk`dJdJ$-TL?c~Vd
           com.fc.JavaScriptDistLib.Label.setProperty["Text"]("weightChangeSign", '+');
         } else if(com.fc.JavaScriptDistLib.MathLibrary.mathCompare(_that.HealthDashboardLib_weightChange, "LT", 0)) {
-          // Block#: gAd*J3esq;}{E$^U8/[V
-          com.fc.JavaScriptDistLib.Label.setProperty["Text"]("weightChangeValue", (com.fc.JavaScriptDistLib.TextLib.convertToText(_that.HealthDashboardLib_weightChange * -1))); // Block#: =wDuk=CVR0t_;8={=sFw
+          // Block#: ,XdKat9^0m].=5zsETm4
+          com.fc.JavaScriptDistLib.Label.setProperty["Text"]("weightChangeValue", (com.fc.JavaScriptDistLib.TextLib.convertToText(_that.HealthDashboardLib_weightChange * -1))); // Block#: LXc,I5HGa~c_Q0**Csec
           com.fc.JavaScriptDistLib.Label.setProperty["Text"]("weightChangeSign", '-');
         } else {
-          // Block#: TgVUU7YysE9D!).@?Pv~
-          com.fc.JavaScriptDistLib.Label.setProperty["Text"]("weightChangeValue", (com.fc.JavaScriptDistLib.TextLib.convertToText(_that.HealthDashboardLib_weightChange))); // Block#: [%y]7_d=m4_@N%2GeUO/
+          // Block#: i-odEhqEt:^QSfUf_W`~
+          com.fc.JavaScriptDistLib.Label.setProperty["Text"]("weightChangeValue", (com.fc.JavaScriptDistLib.TextLib.convertToText(_that.HealthDashboardLib_weightChange))); // Block#: H2*KjDKFglz?kVzRYQy}
           com.fc.JavaScriptDistLib.Label.setProperty["Text"]("weightChangeSign", '');
         }
-        // Block#: T_`mU[w1|KF~?bO[q*9N
-        _that.HealthDashboardLib_weightplot // Block#: ]4/MFRMZv`tTv9#6d{)L
+        // Block#: O8)p*f34hU1Je,0SDybS
+        _that.HealthDashboardLib_weightplot // Block#: iK2O{/2,OTUhkh|OQ*#:
         com.fc.JavaScriptDistLib.GraphContainer.addChartTransition('weightgraph', 500, 500);
       }
     });
@@ -3310,12 +3310,12 @@ $(document).ready(function() {
   function s28HideObjects() {
     return new Promise(function(resolve, reject) {
       // Block#: 7`^[S:E[z*O_FP9-[Pu;
-      $('[obj-name="TA28Textarea"]').hide(); // Block#: qaW=~=+d!}MW#D?FEj$8
-      $('[obj-name="B28Back"]').hide(); // Block#: frL/kH:r37}OKlC22Rgv
-      $('[obj-name="B28Cancel"]').hide(); // Block#: 52]nez6eT1]g1U,TXD0c
-      $('[obj-name="B28Next"]').hide(); // Block#: @pc^0$7UdHKa0q^9oCad
-      $('[obj-name="B28Skip"]').hide(); // Block#: iN|gnY1{[H*zN,nZ]of)
-      $('[obj-name="L28Question"]').hide(); // Block#: %ic3if(CKt+j;47(cm::
+      $('[obj-name="TA28Textarea"]').hide(); // Block#: HTW46|-lKS^wK1xQ5$bQ
+      $('[obj-name="B28Back"]').hide(); // Block#: XB8c;-2dUM$M14l7=F}?
+      $('[obj-name="B28Cancel"]').hide(); // Block#: SP[gI.~NakI*f{EjMOde
+      $('[obj-name="B28Next"]').hide(); // Block#: O{oeV_zb.DZQ%NItB%uI
+      $('[obj-name="B28Skip"]').hide(); // Block#: 41g;Ih|RB6!`C3tkTZq=
+      $('[obj-name="L28Question"]').hide(); // Block#: ~(TA9uP{`OFgC,5YDi]:
       $('[obj-name="L28Error"]').hide(); // Block#: caCF8i^E@p#i`@Z*Lx5f
       $('[obj-name="L28Title"]').hide();
     });
@@ -3460,7 +3460,7 @@ $(document).ready(function() {
       // Block#: VxiCZH/avTGhzmC`L`3c
       S4HideObjects().then(response => {;
       });
-      // Block#: w0A87~QkUhniuY/Y:%e+
+      // Block#: ,OR1^4,.BZcTnX:-I$;|
       _that.currentProperty = getOutcomeName('B4Back');
       // Block#: llmiE{tHe[3b),1~1GLU
       if(_that.currentProperty != null) {
@@ -3534,13 +3534,13 @@ $(document).ready(function() {
    */
   function S22HideObjects() {
     return new Promise(function(resolve, reject) {
-      // Block#: [D5N(].e_yp_E1cgiYVc
-      $('[obj-name="B22Next"]').hide(); // Block#: QBxHfKh%5kZ`:(xS%vo:
-      $('[obj-name="B22Back"]').hide(); // Block#: MiZ=tj}}GJ*C$frf9Ua(
-      $('[obj-name="B22Cancel"]').hide(); // Block#: O56q;{Svu7jyCj*?=XQ2
-      $('[obj-name="B22Skip"]').hide(); // Block#: `fIYCp?;-OUTMXrO|atE
+      // Block#: Hm4famuk/))yKBW~))fv
+      $('[obj-name="B22Next"]').hide(); // Block#: nemy0)[^!E66y]iqZiI:
+      $('[obj-name="B22Back"]').hide(); // Block#: q.u-hD*C_[#Ub._2-S,~
+      $('[obj-name="B22Cancel"]').hide(); // Block#: D8!(UVgv4:jPf7C0XuiY
+      $('[obj-name="B22Skip"]').hide(); // Block#: /o-Z%TE36i}gMwGxTzBv
       $('[obj-name="L22Question"]').hide(); // Block#: r9Vaob=QB!1YyAWRGyZy
-      $('[obj-name="L22Error"]').hide(); // Block#: LYg:^H=fD(b]uR;D2]{6
+      $('[obj-name="L22Error"]').hide(); // Block#: .=uiW(iIiVW[jd:a?7hy
       $('[obj-name="L22Title"]').hide(); // Block#: gk,Qm|sNsd|VQ#g8k+*z
       $('[obj-name="T22Text2"]').hide(); // Block#: B]A[PRXy).*,R|@CO[0e
       $('[obj-name="T22Text1"]').hide();
@@ -3841,63 +3841,63 @@ $(document).ready(function() {
       // Block#: I%!uls.f4qj|e;2xkk#!
       s28HideObjects().then(response => {;
       });
-      // Block#: 0Yt7Hh0uRLV-/~wWu=qO
+      // Block#: b:/MknIC_E55u957b5Gw
       _that.currentProperty = getOutcomeName('B28Back');
-      // Block#: G-t4j[v]h!i$#Ac}|YT;
+      // Block#: ZmzkE8]|-CxV.qo;r)f#
       if(_that.currentProperty != null) {
-        // Block#: (QOG^cV%Lvq7!9Oi~^CZ
+        // Block#: MGs}_IY^#$ypol]B[J]~
         $('[obj-name="B28Back"]').show();
       }
-      // Block#: Bd?r=xA?W[u@1=lw|%$G
+      // Block#: }zz{w*vko6Z1rKy*H):k
       _that.currentProperty = getOutcomeName('B28Cancel');
-      // Block#: ,+9?L,l3pg%JQfAJ_0Er
+      // Block#: ]n/pg~dmJr$pac3Y%,,f
       if(_that.currentProperty != null) {
-        // Block#: +=(F})LxLTUPdBPXyQnO
-        $('[obj-name="B28Cancel"]').show(); // Block#: ?xfneES[Gru45IQzD@7i
+        // Block#: [vL2PKo$rbA0L]wKvH~{
+        $('[obj-name="B28Cancel"]').show(); // Block#: i*ixJh4bHg=H;Tj-lpB8
         com.fc.JavaScriptDistLib.Button.setProperty["Text"]("B28Cancel", _that.currentProperty);
       }
-      // Block#: yhws+9@T;]GyFl3C@=yi
+      // Block#: GeE8K?S!|!?_bXVfK%)z
       _that.currentProperty = getOutcomeName('B28Next');
-      // Block#: -?D#:=mSGwuh`W]^D3}D
+      // Block#: #K19GtSY_#,_TWPU3k3f
       if(_that.currentProperty != null) {
-        // Block#: g#P^L];*drHzp3boZ5ef
-        $('[obj-name="B28Next"]').show(); // Block#: @Xmg}Q}Y;!xGk_0J|uk,
+        // Block#: TL^3%QDhxgFfcfZB+D]+
+        $('[obj-name="B28Next"]').show(); // Block#: /3kW%?~e2Mn~RdVNs/jF
         com.fc.JavaScriptDistLib.Button.setProperty["Text"]("B28Next", _that.currentProperty);
       }
-      // Block#: 84EwlYP]uFQt,[F%Q@L{
+      // Block#: DbR#;Ez:%J7FXX(O]EUd
       _that.currentProperty = getOutcomeName('B28Skip');
-      // Block#: .*lHzlE)wmVh3JP,`Kn4
+      // Block#: 6-S=1svr]g1#wdo*nL1}
       if(_that.currentProperty != null) {
-        // Block#: 2(ymK=k}`Po/qUBYld~{
-        $('[obj-name="B28Skip"]').show(); // Block#: mO^(#U;A0O;8dWL]}|~:
+        // Block#: !%#`J;,xZ2$uq.UWpVwc
+        $('[obj-name="B28Skip"]').show(); // Block#: WwJ8[2x29pzSP(GIw:iT
         com.fc.JavaScriptDistLib.Button.setProperty["Text"]("B28Skip", _that.currentProperty);
       }
-      // Block#: Kxt8=Bi8,c^ix)6+;=n/
+      // Block#: _YfC1m{r$Ae|q`D}8:rA
       _that.currentProperty = getFormProperty('title');
-      // Block#: ELRl5k#];8R}A2q_9wXJ
+      // Block#: sr6Fm.+Q~e*pSQutr?lH
       if(_that.currentProperty != null) {
-        // Block#: dEq!dG7|-n^y/X]%(v2%
-        $('[obj-name="L28Title"]').show(); // Block#: Pz^Q=EQUpKt=dDoc(K9V
+        // Block#: bQZ=B01)aa:TDe=.J@YT
+        $('[obj-name="L28Title"]').show(); // Block#: 1[mt4xEnUn/$?.^6pY2o
         com.fc.JavaScriptDistLib.Label.setProperty["Text"]("L28Title", _that.currentProperty);
       }
-      // Block#: f0T47X}za%wg}N($+tG9
+      // Block#: *HpeYl:lh6?@7t4EF]N0
       _that.inputType = getFormField('answer1', 'type');
-      // Block#: )Ika~sZQ7L*32b%530Wl
+      // Block#: N@4+nS0!b5[nwX2.MYBx
       if(_that.inputType != null) {
-        // Block#: cZ{:k84P2|Ff6l;O[t-a
+        // Block#: Xf~;@RNji+|[jf+qHrLj
         if(com.fc.JavaScriptDistLib.TextLib.textComparison(_that.inputType, "EQUAL", 'boolean')) {
-          // Block#: z^r(95,{%.A:52Z^aUSf
+          // Block#: uBW@shoy(LiB6,Bnq^B[
           _that.currentProperty = getFormProperty('question');
-          // Block#: ]@;8?NkI@NSDf`Ptwz)U
+          // Block#: /3LD@4C;JeR_LD@F/qho
           if(_that.currentProperty != null) {
-            // Block#: 3qw?BHCL4Xvn|0O9zwi|
-            $('[obj-name="L28Question"]').show(); // Block#: 0CbCU@$H7sk:K}*ru*.*
+            // Block#: 9Xiqn;oTs=He$KRFdZ+X
+            $('[obj-name="L28Question"]').show(); // Block#: {UW,^N_?hv`{YmO[Zg.,
             com.fc.JavaScriptDistLib.Label.setProperty["Text"]("L28Question", _that.currentProperty);
           }
         } else {
-          // Block#: SvNUHJ.IJ^QFpnc*dq%.
-          $('[obj-name="L28Question"]').show(); // Block#: ?RI3h:j|`lk6z!5ue$wx
-          com.fc.JavaScriptDistLib.Label.setProperty["Text"]("L28Question", (getFormField('answer1', 'name'))); // Block#: 5M*]oK:E*,!twbnl{Ezf
+          // Block#: vDdmbg$rxgm./EZ]j;F1
+          $('[obj-name="L28Question"]').show(); // Block#: G`/mYoZ{P/iVv9:aOOKo
+          com.fc.JavaScriptDistLib.Label.setProperty["Text"]("L28Question", (getFormField('answer1', 'name'))); // Block#: %:r.iN_|tu0%g-lo~DnT
           if(com.fc.JavaScriptDistLib.TextLib.textComparison(_that.inputType, "EQUAL", 'text') ||
             com.fc.JavaScriptDistLib.TextLib.textComparison(_that.inputType, "EQUAL", 'password')
           ) {
@@ -3908,17 +3908,17 @@ $(document).ready(function() {
           }
         }
       }
-      // Block#: qYUTHR3mkO4~{FJn!OO!
+      // Block#: *_(qVkx*Cv3#?NLd!UOd
       if(com.fc.JavaScriptDistLib.TextLib.textComparison(_that.inputType, "EQUAL", 'text') ||
         com.fc.JavaScriptDistLib.TextLib.textComparison(_that.inputType, "EQUAL", 'integer')
       ) {
-        // Block#: E[h8KFzZgCe-mkOC~WZ9
+        // Block#: j*^Kd%X*7#PDTxf(!7~0
         _that.currentProperty = getFormField('answer1', 'value');
-        // Block#: dZh}5B,dM$d,dp5X*yOk
+        // Block#: 6E)O`=aLtD_,-fyr[ohX
         if(!(_that.currentProperty == null)) {
           // Block#: @c+MdOO*$tdkGkyIwx~s
           $('[obj-name="TA28Textarea"]').show(); // Block#: uxJ(zQH)eWTpW@-yayaW
-          com.fc.JavaScriptDistLib.Textarea.setProperty["Text"]("TA28Textarea", _that.currentProperty); // Block#: $dVwfMm(+#~~Q!#^ua80
+          com.fc.JavaScriptDistLib.Textarea.setProperty["Text"]("TA28Textarea", _that.currentProperty); // Block#: *=8`dKOi%UsYTyEyZ[k_
           _that.selectionMade = true;
         }
       }
@@ -4092,41 +4092,41 @@ $(document).ready(function() {
    */
   function S22UpdateScreen() {
     return new Promise(function(resolve, reject) {
-      // Block#: ;kFPU.G+sXDI{XS:qyS8
+      // Block#: 6TMK_RoDAbk0aNw7bCmX
       S22HideObjects().then(response => {;
       });
-      // Block#: @Acx)Oe3@i5ZtB1ix%Rv
+      // Block#: lF_.oqv~=}/YjOiirvCl
       _that.currentProperty = getOutcomeName('B22Back');
-      // Block#: .Q]I@y,Gd#7OE1C$$Wwp
+      // Block#: Xu8{XfB=m^t$:F/)B0iz
       if(_that.currentProperty != null) {
-        // Block#: ]ce=H%CWbo5L;m@aj^p}
+        // Block#: sV)ZwlTW:*6z[8[q;_S7
         $('[obj-name="B22Back"]').show();
       }
-      // Block#: +^[wRbos`.]ezqR^f%b?
+      // Block#: eAK.0`OE2Q--akl*v%fF
       _that.currentProperty = getOutcomeName('B22Cancel');
-      // Block#: oscsm-lSclSoR8wKq^GO
+      // Block#: Vn/Px_=|S}YPa~(4_5{*
       if(_that.currentProperty != null) {
-        // Block#: tGtM`n`tspm`g`|LyvVx
-        $('[obj-name="B22Cancel"]').show(); // Block#: 6[^boj(qLP|t9:Eaa(QJ
+        // Block#: #Kk]=Eg}l!_y2ttdU%,*
+        $('[obj-name="B22Cancel"]').show(); // Block#: 9Y%[*+bP)KY9bV%6X:K9
         com.fc.JavaScriptDistLib.Button.setProperty["Text"]("B22Cancel", _that.currentProperty);
       }
-      // Block#: bp3Wda=:+JRhHV?!N(8f
+      // Block#: tyYv`C/tUJc+jhx6R/.r
       _that.currentProperty = getOutcomeName('B22Next');
-      // Block#: S`9:s[t5HutA`MpLtUu5
+      // Block#: j:ozfm+N#oyt{#}u/+ra
       if(_that.currentProperty != null) {
-        // Block#: (P^)I?[CC/kP[r!vp7^G
-        $('[obj-name="B22Next"]').show(); // Block#: Ohwk~L0fN{+$A9LZvE4n
+        // Block#: jY59^5a1*{z-VZV};13!
+        $('[obj-name="B22Next"]').show(); // Block#: REn$:3f!g:h,.;`!it.e
         com.fc.JavaScriptDistLib.Button.setProperty["Text"]("B22Next", _that.currentProperty);
       }
-      // Block#: :~J_x22*r~`xrWM2I[QG
+      // Block#: $ntj*wWI7^I@Hi+V|@m3
       _that.currentProperty = getOutcomeName('B22Skip');
-      // Block#: MaV$SP8d.szfe|B,}?zp
+      // Block#: W|Pw*ipKoZm[1?eCd}BX
       if(_that.currentProperty != null) {
-        // Block#: Hb~CE4X.0F#RC4rBUP+q
-        $('[obj-name="B22Skip"]').show(); // Block#: L}[rcZGA[~Wrh$70jvzn
+        // Block#: (--+s[U+/jwW$b[o_|^P
+        $('[obj-name="B22Skip"]').show(); // Block#: zlyE.2NW*(%he$8lJ*az
         com.fc.JavaScriptDistLib.Button.setProperty["Text"]("B22Skip", _that.currentProperty);
       }
-      // Block#: KgdiVLH_QsD98QOa=s-0
+      // Block#: J?+QcpZw6O@k(A0e)owE
       _that.currentProperty = getFormProperty('title');
       // Block#: V6ds?hR`YX7]YfSpE3V%
       if(_that.currentProperty != null) {
@@ -4157,9 +4157,9 @@ $(document).ready(function() {
         $('[obj-name="L22Units2"]').show(); // Block#: Tn,Hi:OB^^+}ubK(,qz`
         com.fc.JavaScriptDistLib.Label.setProperty["Text"]("L22Units2", _that.currentProperty);
       }
-      // Block#: r55pn^Bf2i6#8BtAAU9G
+      // Block#: X+mQGjyVp~aTm2Bk[.7R
       $('[obj-name="L22Question"]').show(); // Block#: KAS1Dew8owoEZd|=1HY,
-      com.fc.JavaScriptDistLib.Label.setProperty["Text"]("L22Question", (getFormField('answer1', 'name'))); // Block#: K8ih!ALMj0$:XS}t=4U7
+      com.fc.JavaScriptDistLib.Label.setProperty["Text"]("L22Question", (getFormField('answer1', 'name'))); // Block#: 3?^NN(2Ob]k{~,4c_cX%
       _that.inputType = getFormField('answer1', 'type');
       // Block#: v]5-Z44.)82NcWhVjPC7
       if(com.fc.JavaScriptDistLib.TextLib.textComparison(_that.inputType, "EQUAL", 'text')) {
@@ -4493,12 +4493,12 @@ $(document).ready(function() {
    */
   function s28CheckField(input) {
     return new Promise(function(resolve, reject) {
-      // Block#: Wv)tA)g%hApxGi2W5^^K
+      // Block#: RBkNBvk]nGs,CdaEc+X.
       _that.selectionMade = false;
       // Block#: /AbxMfkrv}Un*_Wx#*3a
       if(!!com.fc.JavaScriptDistLib.TextLib.textTrim(input)
         .length) {
-        // Block#: w|Tcpv+f#4w/Ye2B)FjO
+        // Block#: jwDM#JaivxbC,l?O~IHv
         _that.selectionMade = true;
       }
       // Block#: 0}y3Z2ptVz@0ylR3hJev
@@ -4614,13 +4614,13 @@ $(document).ready(function() {
    */
   function B25NextUpdate() {
     return new Promise(function(resolve, reject) {
-      // Block#: -!c5?NaCv=*Jr0G)A:C0
+      // Block#: #s|9c_CEd$5kAxJ?WM`|
       if(_that.selectionMade) {
-        // Block#: 5rs!H_MM+$mt-DL^YF.d
+        // Block#: D.woD145Q`MM9X%XsWMS
         com.fc.JavaScriptDistLib.Button.setProperty["Border color"]("B25Next", (com.fc.JavaScriptDistLib.ColourLibrary.getColourFromText('#dd198e'))); // Block#: |**o%}2vo,xg!tl(+ck%
         com.fc.JavaScriptDistLib.Button.setProperty["Background color"]("B25Next", (com.fc.JavaScriptDistLib.ColourLibrary.getColourFromText('#dd198e')));
       } else {
-        // Block#: 9YiagLUs1K2n,_=q+#.H
+        // Block#: 7rn*yeyvAWl3yvHevBv*
         com.fc.JavaScriptDistLib.Button.setProperty["Border color"]("B25Next", (com.fc.JavaScriptDistLib.ColourLibrary.getColourFromText('#f4badd'))); // Block#: JkjdRiuSHJh]m!-I,591
         com.fc.JavaScriptDistLib.Button.setProperty["Background color"]("B25Next", (com.fc.JavaScriptDistLib.ColourLibrary.getColourFromText('#f4badd')));
       }
@@ -5112,14 +5112,14 @@ $(document).ready(function() {
    */
   function b28NextUpdate() {
     return new Promise(function(resolve, reject) {
-      // Block#: 5ZFSOT%4d=vAom|ff{fH
+      // Block#: D(SS7y#(:;O]*+g#D=Nk
       if(_that.selectionMade) {
-        // Block#: j/mNRb*,P7FK`pfIvE$#
-        com.fc.JavaScriptDistLib.Button.setProperty["Background color"]("B28Next", (com.fc.JavaScriptDistLib.ColourLibrary.getColourFromText('#dd198e'))); // Block#: ;vdIi%l=tbAGf;z$GN%Y
+        // Block#: byda`4rscg|^tCF:i-IP
+        com.fc.JavaScriptDistLib.Button.setProperty["Background color"]("B28Next", (com.fc.JavaScriptDistLib.ColourLibrary.getColourFromText('#dd198e'))); // Block#: U%Jr?8.`D#29}5InKC[v
         com.fc.JavaScriptDistLib.Button.setProperty["Border color"]("B28Next", (com.fc.JavaScriptDistLib.ColourLibrary.getColourFromText('#dd198e')));
       } else {
-        // Block#: rdhBYdF[r(/gm*jL%Vf.
-        com.fc.JavaScriptDistLib.Button.setProperty["Background color"]("B28Next", (com.fc.JavaScriptDistLib.ColourLibrary.getColourFromText('#f4badd'))); // Block#: +4KTguf4Tt2#=Xgu:SJc
+        // Block#: VfDE5jDEVa7v?-9!%(Db
+        com.fc.JavaScriptDistLib.Button.setProperty["Background color"]("B28Next", (com.fc.JavaScriptDistLib.ColourLibrary.getColourFromText('#f4badd'))); // Block#: LT([d6-`4[9y,,kad{QI
         com.fc.JavaScriptDistLib.Button.setProperty["Border color"]("B28Next", (com.fc.JavaScriptDistLib.ColourLibrary.getColourFromText('#f4badd')));
       }
     });
@@ -5199,13 +5199,13 @@ $(document).ready(function() {
    */
   function B23NextUpdate() {
     return new Promise(function(resolve, reject) {
-      // Block#: k0Tf_bcq$IQ4@_QtG.k9
+      // Block#: *-iq:QiTZj/54;vuEEu]
       if(_that.selectionMade) {
-        // Block#: [eUI[0/tpz9a?eamquYr
+        // Block#: Nae$;W.#2@WSjPcpG7G1
         com.fc.JavaScriptDistLib.Button.setProperty["Border color"]("B23Next", (com.fc.JavaScriptDistLib.ColourLibrary.getColourFromText('#dd198e'))); // Block#: Q5NmPA9mtoHW.Mq8yVnI
         com.fc.JavaScriptDistLib.Button.setProperty["Background color"]("B23Next", (com.fc.JavaScriptDistLib.ColourLibrary.getColourFromText('#dd198e')));
       } else {
-        // Block#: !Cb#]2xCEg*HLU!L=dDK
+        // Block#: O[[nRKPJ(ws-RQP6B}FJ
         com.fc.JavaScriptDistLib.Button.setProperty["Border color"]("B23Next", (com.fc.JavaScriptDistLib.ColourLibrary.getColourFromText('#f4badd'))); // Block#: Y?d+Mf5NTX#%um%ZavSv
         com.fc.JavaScriptDistLib.Button.setProperty["Background color"]("B23Next", (com.fc.JavaScriptDistLib.ColourLibrary.getColourFromText('#f4badd')));
       }
@@ -5767,20 +5767,20 @@ $(document).ready(function() {
       com.fc.JavaScriptDistLib.handleExceptionNative(e);
     }
   };
-  // Block#: cxxklGK/4}xadj}9$)d@
+  // Block#: `18KdzD$V^#*D]9g%FPk
   function on_B23Next_click(e) {
     try {
       // Block#: ?;y2~p?v.XHKDY0:Foz5
       _that.nextClicked = true;
-      // Block#: X/PBxPFheEZ@BUqtEPk=
+      // Block#: [6a;fF#3JMgOp~xNUi;W
       if(!_that.buttonClicked && _that.selectionMade) {
-        // Block#: oL=Yw6}Dhy`.$0E3L%mW
+        // Block#: #{j{G4BQ]2B|,@H12bm.
         if(com.fc.JavaScriptDistLib.TextLib.textComparison(_that.inputType, "EQUAL", 'text')) {
-          // Block#: F2QL~OJPxgdmiF1Q?zX/
+          // Block#: 1xAKOeq=r*7sYC1fjA`O
           setFormFieldByMapKey('answer1', 'value', com.fc.JavaScriptDistLib.Textbox.getProperty["Text"]("T23Text"));
-          // Block#: XP,:vx@%mcLVS:VT8W@$
+          // Block#: gT{`n_Nw@C#Nvc!:F,%~
           _that.buttonClicked = true;
-          // Block#: 1VNR1JI+af^_IP3/EG[c
+          // Block#: G~eBZO}R9eiC?XI)[:y|
           _that.returnError = saveTaskAndNext(getOutcomeName('B23Next'));
         } else if(com.fc.JavaScriptDistLib.TextLib.textComparison(_that.inputType, "EQUAL", 'integer')) {
           // Block#: PG#Ka4M8-j-C4[j9VJ|(
@@ -5823,16 +5823,16 @@ $(document).ready(function() {
     }
   };
   $('[obj-name="B23Next"]').on('click', on_B23Next_click);
-  // Block#: GnlS(j3~:dQV14/Fx(2H
+  // Block#: @/D71`CwU~8*nP2*}zbP
   function on_screen_showS25AddMedication() {
     try {
-      // Block#: mwkPJ{jKaGp_radP|Io2
+      // Block#: V=`yRQY=%@T2$-|1!vNx
       _that.currentScreen = 'S25AddMedication';
       // Block#: mlH5JyUHQB9m0$Rgo7L9
       com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S25AddMedication", false); // Block#: Ds30i*!Nrf,U1)b`)rZR
       if(_that.S25FirstDisplay) {
         // Block#: 8S{vS/CN{c!5qb~o;pWr
-        com.fc.JavaScriptDistLib.Button.setProperty["Text"]("B25Add", 'Add Medication'); // Block#: OSsW@8#xcKm|Zz^N,o;c
+        com.fc.JavaScriptDistLib.Button.setProperty["Text"]("B25Add", 'Add Medication'); // Block#: iTg=g,{a/+vt8K.qe=*@
         _that.selectionMade = false;
         // Block#: G7e9V#-h`m|a-C{ptSBF
         S25UpdateScreen().then(response => {;
@@ -5849,7 +5849,7 @@ $(document).ready(function() {
   // Block#: g?KW3@fEq^|J0;9l`N(?
   function on_screen_showS20BasicInput() {
     try {
-      // Block#: 9226X62[lF@TUd;+2PVF
+      // Block#: _HLHg%;H*^*_{l=sG!@Y
       _that.currentScreen = 'S20BasicInput';
       // Block#: kusrdUGV:`DDW#uVq$Yu
       $('[obj-name="L20Error"]').hide(); // Block#: !icG()o3ZMlC,;:l?1vs
@@ -5873,7 +5873,7 @@ $(document).ready(function() {
   // Block#: -e5jtst~`},s*7XtEPG[
   function on_screen_showS3BasicOrange() {
     try {
-      // Block#: -]K_*VZHRUaj72Jd(GGr
+      // Block#: u#d9R@nE-:?8=vC;.YTP
       _that.currentScreen = 'S3BasicOrange';
       // Block#: oAo!)Ban#NW*rv2$v)z-
       if(_that.S3FirstDisplay) {
@@ -6005,14 +6005,14 @@ $(document).ready(function() {
     }
   };
   com.fc.JavaScriptDistLib.Screen.screenDict['backS3BasicOrange'] = on_screen_back_button_pressS3BasicOrange;
-  // Block#: L8_3@S+x{L#L+|+h}N{V
+  // Block#: leGhm-CvP4Jcj};Kev~z
   function on_screen_showS23SingleInput() {
     try {
-      // Block#: tyb0ZQ.1yc,,(MW;_7#(
+      // Block#: s8?tYGcZAmGPsHpjm~oY
       _that.currentScreen = 'S23SingleInput';
-      // Block#: 9o2lHY(:w6=!2(E}b?,j
+      // Block#: -J7f,ba4?RP4OLh{A2iT
       com.fc.JavaScriptDistLib.Textbox.setProperty["Text"]("T23Text", ''); // Block#: yII,lXC7#|x~KMSYa~J)
-      com.fc.JavaScriptDistLib.Label.setProperty["Text"]("L23Error", 'Invalid input'); // Block#: /94YCA6SK22|y6MB:Fg+
+      com.fc.JavaScriptDistLib.Label.setProperty["Text"]("L23Error", 'Invalid input'); // Block#: Q}t]V-4@WY%waUd?4jc5
       _that.selectionMade = false;
       // Block#: m`so:_OB-jIMjZbsS7G7
       _that.nextClicked = false;
@@ -6054,7 +6054,7 @@ $(document).ready(function() {
   // Block#: CeFM,-@40)i?C8_Q9N,=
   function on_screen_showS15Webview() {
     try {
-      // Block#: MvjSTWi8_0!6-Sk_-hb4
+      // Block#: /ae2a2yqr}{|#wlprXru
       _that.currentScreen = 'S15Webview';
       // Block#: Z{u~65.3[(@-dtls:uHd
       if(_that.S15FirstDisplay) {
@@ -6106,22 +6106,22 @@ $(document).ready(function() {
   // Block#: guLZ!|A8oiSaqi~$t6;r
   function on_B21Cancel_click(e) {
     try {
-      // Block#: d5uCZ%PM-;n3=XLumX{6
+      // Block#: ,Tr0n6f$IRf2DOQEI%aU
       _that.dialog = (com.fc.JavaScriptDistLib.Dialog.create(_that.genericDialogTitle, _that.genericDialogBody));
-      // Block#: FBJi^NXXv5EPCwZT;5$w
+      // Block#: #ZXxO614c`-hVCN;mXxJ
       com.fc.JavaScriptDistLib.Dialog.addCancelBtn('No', _that.dialog)
-      // Block#: NS{gYA:A(9Fl`aqD#..4
+      // Block#: q_g_%]zQ]34VArC?4{N9
       com.fc.JavaScriptDistLib.Dialog.addBtn('Yes', _that.dialog)
       // Block#: %`4Gre|@:,m3F|1`j1mS
       if(!_that.buttonClicked) {
-        // Block#: k_@Vp`F)jV@q,dXFU{GO
+        // Block#: F29`i|YEA,_^[EV{L(Sw
         com.fc.JavaScriptDistLib.Dialog.show(_that.dialog, function(button_title) {
-          // Block#: Dd]ftlMGTd6,i)}p.Z$F
+          // Block#: 2NBAZ.@_N3ZV=ReK{E7x
           if(com.fc.JavaScriptDistLib.TextLib.textComparison(button_title, "EQUAL", 'Yes')) {
             // Block#: /GU,Dv8Cv$}*xYuzsV7O
             _that.buttonClicked = true;
             // Block#: :)nNj3{,5rF,syMXhH2W
-            com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S21Pin", true); // Block#: Fu/KDZEqr@ZK5Fcx?Y%`
+            com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S21Pin", true); // Block#: eEA3cS;Pmv.R7u[~_Elq
             _that.returnError = saveTaskAndNext(getOutcomeName('B21Cancel'));
           }
         })
@@ -6312,10 +6312,10 @@ $(document).ready(function() {
     }
   };
   com.fc.JavaScriptDistLib.Screen.screenDict['backS17Profile'] = on_screen_back_button_pressS17Profile;
-  // Block#: {rQR;?44?=,revwMP`2O
+  // Block#: lLavkNGoi;m}9mSaaG}{
   function on_screen_showS24Medication() {
     try {
-      // Block#: %mdVK]I8-g3PO}tw!8Sz
+      // Block#: }QCUel)/%sDvjSK1dz[%
       _that.currentScreen = 'S24Medication';
       // Block#: 2m}9@cX5Gz=!KY|vwy6~
       com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S24Medication", false); // Block#: O%FvmLcf(vk1xP,!yJ~/
@@ -6323,7 +6323,7 @@ $(document).ready(function() {
       // Block#: A1(g=tX172RNQtcL.0$9
       setMedicationList().then(response => {;
       });
-      // Block#: t1)iG;GSsdS3($B-Kj{?
+      // Block#: $sFbB2pvEC^y.YYykJ(F
       _that.selectionMade = false;
       // Block#: ;+:dq!5MAr6|Y/j;c6^~
       _that.letterNumber = 0;
@@ -6394,7 +6394,7 @@ $(document).ready(function() {
   // Block#: ZH|[`!ahUW$!:l^.f%1C
   function on_screen_showS8Sharing() {
     try {
-      // Block#: s3?CyI[fe`REQW)fp.o;
+      // Block#: A~p:-:HCt|^n$8Pv|#Cj
       _that.currentScreen = 'S8Sharing';
       // Block#: OA5ud:Nt2#P_#U_aay:E
       if(_that.S8FirstDisplay) {
@@ -6448,15 +6448,15 @@ $(document).ready(function() {
     }
   };
   $('[obj-name="B2Next"]').on('click', on_B2Next_click);
-  // Block#: GF^qjlO2fQCF_UI1Xm0p
+  // Block#: rEED5Wi2)Iq66pO26p@4
   function on_B25Add_click(e) {
     try {
-      // Block#: G4M2i/:PTMu;5=KD:Z3N
+      // Block#: Wr=$i73.=P#??,db;=Oz
       if(!_that.buttonClicked) {
-        // Block#: M_[i|.g8jq2_BT51WJum
+        // Block#: `k3cMk/;8C#v*GHYDej3
         _that.buttonClicked = true;
         // Block#: G/7I1b:$El5I^c(V;/QX
-        com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S25AddMedication", true); // Block#: w/JyQNRY{jVA_J7YjapU
+        com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S25AddMedication", true); // Block#: `9($t2ls$=WmU?f?-.i6
         _that.returnError = saveTaskAndNext(getOutcomeName('B25Add'));
       }
       e.stopPropagation();
@@ -6484,7 +6484,7 @@ $(document).ready(function() {
   // Block#: _wXBV@rSN(el:pA.r:@l
   function on_screen_showS12Email() {
     try {
-      // Block#: YMVRO{kr=7]l_;70F2o5
+      // Block#: E;Q:Q$Sg=Bh-k~zPXj~1
       _that.currentScreen = 'S12Email';
       // Block#: ,?``[4i=wVZ(DS@]_oPj
       $('[obj-name="L12Error"]').hide(); // Block#: #lsI+D^s2a!m8^EfVHmC
@@ -6530,19 +6530,19 @@ $(document).ready(function() {
       if(!_that.buttonClicked) {
         // Block#: z,fon%KmOY0s.SpDETh`
         if(com.fc.JavaScriptDistLib.TextLib.textComparison(com.fc.JavaScriptDistLib.Button.getProperty["Text"]("B3Cancel"), "EQUAL", 'Cancel')) {
-          // Block#: :A)OOZtEJSRPICB*Zw(7
+          // Block#: ARg-`_S4#Uy+X`.FXs:F
           _that.dialog = (com.fc.JavaScriptDistLib.Dialog.create(_that.genericDialogTitle, _that.genericDialogBody));
-          // Block#: qb4,3RO@xb_#ArOw_}OS
+          // Block#: ;^7s5M#iACFz{.FC[SYM
           com.fc.JavaScriptDistLib.Dialog.addCancelBtn('No', _that.dialog)
-          // Block#: aUsp8KM)*pxSaHvvgqC]
+          // Block#: WFmXI4#83}v-I@l:CGK{
           com.fc.JavaScriptDistLib.Dialog.addBtn('Yes', _that.dialog)
-          // Block#: XnU(}-M4AD_SPK.i?[?M
+          // Block#: _+*-}8f94rVU4}R~J,Qt
           com.fc.JavaScriptDistLib.Dialog.show(_that.dialog, function(button_title) {
-            // Block#: M*m+W(^,)$Eyz=T;L{,N
+            // Block#: H!ru(0(P%41O8FFz0v{E
             if(com.fc.JavaScriptDistLib.TextLib.textComparison(button_title, "EQUAL", 'Yes')) {
               // Block#: wGvQ-%`#C8n/f07$AX#$
               _that.buttonClicked = true;
-              // Block#: 8DmK--^Dgt7B9fnk3dDj
+              // Block#: }}OF]uk{=Rma_g%~XXg?
               _that.returnError = saveTaskAndNext(getOutcomeName('B3Cancel'));
             }
           })
@@ -6659,7 +6659,7 @@ $(document).ready(function() {
   // Block#: T`K!lcPiJ*,VW]1[]`E+
   function on_screen_showS4BasicPurple() {
     try {
-      // Block#: sAU,.F6d[C1$QCwV9~ed
+      // Block#: @R+8w6}2)FUg2BB#;*4Y
       _that.currentScreen = 'S4BasicPurple';
       // Block#: 1-+DLQ~~$Sz`]xCx;6,+
       com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S4BasicPurple", false); // Block#: ?1T^RKx6*d2hqmC_1!(?
@@ -6676,14 +6676,14 @@ $(document).ready(function() {
   };
   $('[obj-name="S4BasicPurple"]').on('show', on_screen_showS4BasicPurple);
   com.fc.JavaScriptDistLib.Screen.screenDict['showS4BasicPurple'] = on_screen_showS4BasicPurple;
-  // Block#: 3QyM48nNvaqRv(wTJ*+k
+  // Block#: S__1oAw9xX%0z.@WP#9R
   function on_B23Skip_click(e) {
     try {
-      // Block#: `7@:aXQasR#geNWZL^Zy
+      // Block#: 2jtJe|UwQ],g{V{oEO%?
       if(!_that.buttonClicked) {
-        // Block#: UFuz~=,Xv,{3pf-oiQ5k
+        // Block#: K5.tkz,b$Jq|8uDlm-2/
         _that.buttonClicked = true;
-        // Block#: 8}d;qJ+__j(%g6v#D3z)
+        // Block#: cl|QId?tx^Wvqo45]Vx,
         _that.returnError = saveTaskAndNext(getOutcomeName('B23Skip'));
       }
       e.stopPropagation();
@@ -6742,15 +6742,15 @@ $(document).ready(function() {
   };
   $('[obj-name="HealthDashboardScreen"]').on('show', on_screen_showHealthDashboardScreen);
   com.fc.JavaScriptDistLib.Screen.screenDict['showHealthDashboardScreen'] = on_screen_showHealthDashboardScreen;
-  // Block#: *;7No|Zobyk7p+2U.Ut$
+  // Block#: uNkOaO*QrR+-U3C@9h^8
   function on_B24Done_click(e) {
     try {
-      // Block#: puYKt;[oRw$n$.[?UO7b
+      // Block#: gm9++$cpn~g12rO)-G11
       if(!_that.buttonClicked) {
-        // Block#: ?kR6Z?1+R`3./S?7w~.S
+        // Block#: ym?lkrkI3iK!sd9!7.][
         _that.buttonClicked = true;
         // Block#: o5E1U6l#_U0S+5Dpno[S
-        com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S24Medication", true); // Block#: f:.CGuPt@559d^eM}3@5
+        com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S24Medication", true); // Block#: P=r4$W%+O9@o6oBCoOJ?
         _that.returnError = saveTaskAndNext(getOutcomeName('B24Done'));
       }
       e.stopPropagation();
@@ -6803,7 +6803,7 @@ $(document).ready(function() {
   // Block#: cIwLzlJ4N20WX30w1RHm
   function on_screen_showS26GraphDisplay() {
     try {
-      // Block#: @*pKsmXt8@#H!8Oq!Pni
+      // Block#: Q$:6sg-~)#E5@Nl0G8`s
       _that.currentScreen = 'S26GraphDisplay';
       // Block#: 3H~D5pg~CLku|L}#ekEk
       s26HideObjects().then(response => {;
@@ -6820,7 +6820,7 @@ $(document).ready(function() {
   // Block#: 3+m[^/jSIjQvxp1AqdEd
   function on_screen_showS17Profile() {
     try {
-      // Block#: eBgk|Ops(3;%6lhm8@$W
+      // Block#: voc`qqG$z`F|@DSBZl00
       _that.currentScreen = 'S17Profile';
       // Block#: *jL3Lj;BnjMH.;MqgA]Z
       S17EnableGestures().then(response => {;
@@ -6858,7 +6858,7 @@ $(document).ready(function() {
   // Block#: GNMXh2wh]u`7hUXhqX25
   function on_screen_showS14Learn() {
     try {
-      // Block#: mD]1dmt/T(D`f]Cupx[/
+      // Block#: N(EhLP^j#W?x2|5iO?uy
       _that.currentScreen = 'S14Learn';
       // Block#: EljNFrRdBZNK?RBEZC7F
       if(_that.S14FirstDisplay) {
@@ -7123,15 +7123,15 @@ $(document).ready(function() {
     };
   };
   $('[obj-name= "C17DueDate"]').on('click', on_Container_C17DueDate_CLICK);
-  // Block#: ?9swlD,inw`-r!(A,Q=(
+  // Block#: vx%BTJk~FAY!:4P#D$e9
   function on_B25Back_click(e) {
     try {
-      // Block#: 7^EZ%97RQns1|#k)Ho@1
+      // Block#: xLtE3LO3sOt%v=S7B/aH
       if(!_that.buttonClicked) {
-        // Block#: K~$),8M[mFKGrT5LVt`U
+        // Block#: cr61p7bf4=5CmVq%y(^s
         _that.buttonClicked = true;
         // Block#: :22*c)^hOMX_wGR`~nfT
-        com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S25AddMedication", true); // Block#: `x:n02Ic,.+))KE-4P14
+        com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S25AddMedication", true); // Block#: 2MZ53D~oivm[ea#|wUL5
         _that.returnError = saveTaskAndNext(getOutcomeName('B25Back'));
       }
       e.stopPropagation();
@@ -7225,10 +7225,10 @@ $(document).ready(function() {
     }
   };
   $('[obj-name="B15Back"]').on('click', on_B15Back_click);
-  // Block#: dN9v3,:`RsML1?ZKhEX)
+  // Block#: bhamNbj;CmSJK~-O*3m+
   function on_screen_showS28TextAreaInput() {
     try {
-      // Block#: 3oKoPCoIQh^l.v=VS`({
+      // Block#: UoPgx_CIwaLf[KkU7Da!
       _that.currentScreen = 'S28TextAreaInput';
       // Block#: ,WcHxs((?0p#]S5A~*=N
       s28UpdateScreen().then(response => {;
@@ -7242,7 +7242,7 @@ $(document).ready(function() {
   // Block#: e1{Hhp50w]!f8)hzyYa0
   function on_screen_showS13Home() {
     try {
-      // Block#: 9h4Zx7woF9{w2SjeFFlg
+      // Block#: =9oISSSu67znFJ=~?G3a
       _that.currentScreen = 'S13Home';
       // Block#: QQ5=rdudA0}bw9#DY5Mp
       com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S13Home", false); // Block#: a*2||8Qzuf)TJSl)Bq!Q
@@ -7278,14 +7278,14 @@ $(document).ready(function() {
   };
   $('[obj-name="S2Qualification"]').on('show', on_screen_showS2Qualification);
   com.fc.JavaScriptDistLib.Screen.screenDict['showS2Qualification'] = on_screen_showS2Qualification;
-  // Block#: +k{9mE~sR=K4~e)AnNx{
+  // Block#: k3!XiL=y2@;0n4D]PiS7
   function on_B23Back_click(e) {
     try {
-      // Block#: n;sbuyy_3PHnGs`0r`x5
+      // Block#: +Q326cJ^S@v9dXei)AXj
       if(!_that.buttonClicked) {
-        // Block#: 5(-!6hL)GX48%U,.~#30
+        // Block#: cn@w$is}nP}d/6ulS;As
         _that.buttonClicked = true;
-        // Block#: 9fk5OH[Hcm.Kvd.0h7rD
+        // Block#: q1Ts?61kVCblpUZunU%t
         _that.returnError = saveTaskAndNext(getOutcomeName('B23Back'));
       }
       e.stopPropagation();
@@ -7297,14 +7297,14 @@ $(document).ready(function() {
   // Block#: }77zMJn|=/|?Jc-Sa3n4
   let on_screen_back_button_pressS28TextAreaInput = function() {
     try {
-      // Block#: +hpy/mtvN#ytvR?SLp07
+      // Block#: kPBw9|oRENVHcU,TEwWd
       if(!_that.buttonClicked && ($('[obj-name="B28Back"]').is(':visible'))) {
-        // Block#: F`?TWet$:TCbg[~[ZppN
+        // Block#: i=~oClxH@mc}g?-#p$@H
         _that.buttonClicked = true;
-        // Block#: [g[Qbkqt#69U)a;r:l#:
+        // Block#: 7/O}+$/(y{shcfKltKJ:
         _that.returnError = saveTaskAndNext(getOutcomeName('B28Back'));
       } else {
-        // Block#: Zq(pz~QZ6HX4mYia+axp
+        // Block#: h*1F/lv(o4`]_0/#TKlt
         com.fc.JavaScriptDistLib.Application.sendToBackground();
       }
     } catch(e) {
@@ -7315,14 +7315,14 @@ $(document).ready(function() {
   // Block#: ~*:LVY#_gxUXGNp.%wUM
   let on_screen_back_button_pressS9Html = function() {
     try {
-      // Block#: )sit`|/TmZeWX6YGFQ]q
+      // Block#: sG%@pm_B.^}cSg]MrKk,
       if(!_that.buttonClicked && ($('[obj-name="B9Back"]').is(':visible'))) {
-        // Block#: RhjwPY:mID0_CurJ*HzW
+        // Block#: KEl}O2IuhPc%i4;w1sPa
         _that.buttonClicked = true;
-        // Block#: [0E}em0|cxN,p,?(]JNE
+        // Block#: L`=02_^%JlZ|e5-fiZPY
         _that.returnError = saveTaskAndNext(getOutcomeName('B9Back'));
       } else {
-        // Block#: 1E,QseA{sr4/qKdn_zZK
+        // Block#: ,TZTldw6NPk+}tO^WJD=
         com.fc.JavaScriptDistLib.Application.sendToBackground();
       }
     } catch(e) {
@@ -7380,15 +7380,15 @@ $(document).ready(function() {
     }
   };
   $('[obj-name="B12Next"]').on('click', on_B12Next_click);
-  // Block#: [R^dW(P?R*U=0pq}71o;
+  // Block#: #3|#w)6Szp3t@nT`K/qT
   function on_screen_showS22DualInput() {
     try {
-      // Block#: DG4GVE)dg=BFk$c)*S8=
+      // Block#: m8uPvnP6c1FK_yHhu1hu
       _that.currentScreen = 'S22DualInput';
       // Block#: ?9+J@_5#Ac,|/M8VFprP
       com.fc.JavaScriptDistLib.Textbox.setProperty["Text"]("T22Text2", ''); // Block#: U:NBqIivI![SQ]U)l*Wj
       com.fc.JavaScriptDistLib.Textbox.setProperty["Text"]("T22Text1", ''); // Block#: ^v[$YK`XOnjv`h}lV}Iv
-      com.fc.JavaScriptDistLib.Label.setProperty["Text"]("L22Error", 'Invalid input'); // Block#: 68}7KkOgms)UbfT)0Q.{
+      com.fc.JavaScriptDistLib.Label.setProperty["Text"]("L22Error", 'Invalid input'); // Block#: ^-XPh^VafM(I+8NR8h-h
       _that.selectionMade = false;
       // Block#: KLE#ym73]ANCT||}M!=R
       _that.nextClicked = false;
@@ -7430,7 +7430,7 @@ $(document).ready(function() {
   // Block#: h1Oh}oeVP.%UgbX?.iT3
   function on_screen_showS11Signature() {
     try {
-      // Block#: v8hWismk+LwfzFU[PfR{
+      // Block#: U}GaEg{-$0n0=lEH2RE!
       _that.currentScreen = 'S11Signature';
       // Block#: FwaKPUR^;yz,n+p(m62i
       if(_that.S11FirstDisplay) {
@@ -7508,7 +7508,7 @@ $(document).ready(function() {
   // Block#: @-H,xYJGTfC28M6*h]($
   function on_screen_showS19Activities() {
     try {
-      // Block#: Pg+hqRK397}si,UW0IeR
+      // Block#: %Vgvs8JC75kKbw:uU`v@
       _that.currentScreen = 'S19Activities';
       // Block#: +RA$Q%!=Jpl0aV@^P-c4
       findActiveInstances().then(response => {;
@@ -7534,22 +7534,22 @@ $(document).ready(function() {
     };
   };
   $('[obj-name= "C17Privacy"]').on('click', on_Container_C17Privacy_CLICK);
-  // Block#: NIi{Ng)HZ4b+eNO;;Nyx
+  // Block#: sU91P]ocJ?O~!dE-uteH
   function on_B22Next_click(e) {
     try {
       // Block#: y^2cX0KHtOU8[Z:TS`HP
       _that.nextClicked = true;
-      // Block#: *6fty$[4$)siCgmrE!Gx
+      // Block#: mWw{`vWdNZpq.?bC-(IJ
       if(!_that.buttonClicked && _that.selectionMade) {
-        // Block#: Yw$1571K[7d{j?y[?vzn
+        // Block#: Yh94qSW5xA[ZPo$T$As#
         if(com.fc.JavaScriptDistLib.TextLib.textComparison(_that.inputType, "EQUAL", 'text')) {
-          // Block#: G8PkV6@Kl*MOGxms`u)[
+          // Block#: Z:ockh)k.TAK`yTq;,ep
           setFormFieldByMapKey('answer1', 'value', com.fc.JavaScriptDistLib.Textbox.getProperty["Text"]("T22Text1"));
           // Block#: -|VN/cDMi|{~{Gr{@]%^
           setFormFieldByMapKey('answer2', 'value', com.fc.JavaScriptDistLib.Textbox.getProperty["Text"]("T22Text2"));
-          // Block#: bZ_#CM+?|/vErmh{Q)Sj
+          // Block#: haS,gw6~V*!d8`^[,sR]
           _that.buttonClicked = true;
-          // Block#: p?bHvxYPg|V80p.I_F26
+          // Block#: 6Z4TRRj96^lS?794VXE;
           _that.returnError = saveTaskAndNext(getOutcomeName('B22Next'));
         } else if(com.fc.JavaScriptDistLib.TextLib.textComparison(_that.inputType, "EQUAL", 'integer')) {
           // Block#: e3-CzdI^#af5_^B(Bh@2
@@ -7724,24 +7724,24 @@ $(document).ready(function() {
       com.fc.JavaScriptDistLib.handleExceptionNative(e);
     }
   };
-  // Block#: ;1jIo5]=59~/-!1f|(G6
+  // Block#: Q)$uEMN1PrtAu}6udb]m
   function on_B23Cancel_click(e) {
     try {
-      // Block#: lXEf(CY4Fz=.vJ?yDo^}
+      // Block#: OG(+;;pVLgc-]5c6{wap
       _that.dialog = (com.fc.JavaScriptDistLib.Dialog.create(_that.genericDialogTitle, _that.genericDialogBody));
-      // Block#: 4oWhUahl*~KI)+PT~r:b
+      // Block#: Rj!)G=qi!7xzc2U#n;fZ
       com.fc.JavaScriptDistLib.Dialog.addCancelBtn('No', _that.dialog)
-      // Block#: yxgZLeR.o?_)n1ab7iMc
+      // Block#: iNgWXoY.yMVvvzymXc$.
       com.fc.JavaScriptDistLib.Dialog.addBtn('Yes', _that.dialog)
       // Block#: 4gv*lDQZispvy+_vbpm9
       if(!_that.buttonClicked) {
-        // Block#: 1(0Wr3[Ci@MFWRl[8ay0
+        // Block#: 5Ri+-LQ=+Pnj}9!D~YVa
         com.fc.JavaScriptDistLib.Dialog.show(_that.dialog, function(button_title) {
-          // Block#: Vn9M[5*0VgG62D4r5QB;
+          // Block#: jm7e:adt(5?m3e^^[7G{
           if(com.fc.JavaScriptDistLib.TextLib.textComparison(button_title, "EQUAL", 'Yes')) {
             // Block#: +x)6pphM]vZn,6`K3XI=
             _that.buttonClicked = true;
-            // Block#: !,yg5C.Tl18}WIR`;p#+
+            // Block#: HTEot{dG:Cg48^5(z;RK
             _that.returnError = saveTaskAndNext(getOutcomeName('B23Cancel'));
           }
         })
@@ -7809,7 +7809,7 @@ $(document).ready(function() {
       if(!_that.buttonClicked) {
         // Block#: x_x{{i|`2z9O[vCOWfnz
         _that.buttonClicked = true;
-        // Block#: PbX0rJY]U50?]yV)2]b;
+        // Block#: OJSdq~jJ7zUSRJJJm%(6
         _that.returnError = saveTaskAndNext(getOutcomeName('B14Back'));
       }
       e.stopPropagation();
@@ -7821,7 +7821,7 @@ $(document).ready(function() {
   // Block#: ZOdu04;[d~;8nWeog($g
   function on_screen_showS9Html() {
     try {
-      // Block#: %P/?^=gXaEx*o1tn%XCn
+      // Block#: KKV+q%|~p-Frt|EGP{E=
       _that.currentScreen = 'S9Html';
       // Block#: ]o^Y:Q6u6F05R-p-sd1w
       if(_that.S9FirstDisplay) {
@@ -7840,18 +7840,18 @@ $(document).ready(function() {
   // Block#: Djm)PnO`R|F8J1l_~Z9T
   function on_B28Next_click(e) {
     try {
-      // Block#: 1=Qi5hvP[tFZEK$^SzX*
+      // Block#: |i*go34**GM}kjy(6hp)
       if(!_that.buttonClicked && _that.selectionMade) {
-        // Block#: K!s?+kjP9Xz}k_WC(GNP
+        // Block#: RO@pt+o8g?^gvF)4uUA~
         if(com.fc.JavaScriptDistLib.TextLib.textComparison(_that.inputType, "EQUAL", 'text') ||
           com.fc.JavaScriptDistLib.TextLib.textComparison(_that.inputType, "EQUAL", 'integer')
         ) {
-          // Block#: CRdY?_YeP{VoEC0i!fYs
+          // Block#: t$#Bs=+*lgnK:#t+H2Nz
           setFormFieldByMapKey('answer1', 'value', com.fc.JavaScriptDistLib.Textarea.getProperty["Text"]("TA28Textarea"));
         }
-        // Block#: r2BS3J(fDcjDjCFVsfc;
+        // Block#: k,4,!n2*b{j2KD9LZrJb
         _that.buttonClicked = true;
-        // Block#: {zIprQcU0QRWlv~46vw|
+        // Block#: S(H+!ym%-2z|=ijMmj7i
         _that.returnError = saveTaskAndNext(getOutcomeName('B28Next'));
       }
       // Block#: lC-12zpr_5X#0wkqUp)y
@@ -7946,14 +7946,14 @@ $(document).ready(function() {
     }
   };
   com.fc.JavaScriptDistLib.Application.registerEvent('in_foreground', on_in_foreground);
-  // Block#: gDZUr7*RI3j?P2p!|pM9
+  // Block#: 0`boff`DR?F[]bI*xFA)
   function on_B22Skip_click(e) {
     try {
-      // Block#: .)H$+ZX!;J;CJ,#!-p;O
+      // Block#: D=hSkRQPU~Hpghmk:_s/
       if(!_that.buttonClicked) {
-        // Block#: :A]ln|rf4}muma)I8H6i
+        // Block#: yJ)~?_UU{@BYf#Vge#jI
         _that.buttonClicked = true;
-        // Block#: vT#baZ!(RtsYX4vI74Wt
+        // Block#: UUjc)deT40WFLjifhccV
         _that.returnError = saveTaskAndNext(getOutcomeName('B22Skip'));
       }
       e.stopPropagation();
@@ -8062,21 +8062,21 @@ $(document).ready(function() {
   // Block#: [J-$2,,9k!/x)yjKgqC(
   function on_B11Cancel_click(e) {
     try {
-      // Block#: 9FMi(FC,FI8;tUY7bpUh
+      // Block#: u(?LQd/vOX;+I$nFSwA2
       _that.dialog = (com.fc.JavaScriptDistLib.Dialog.create(_that.genericDialogTitle, _that.genericDialogBody));
-      // Block#: mRRp;`C4l61O?ha330C;
+      // Block#: LKL%pRuj*I0$],D4%!fJ
       com.fc.JavaScriptDistLib.Dialog.addCancelBtn('No', _that.dialog)
-      // Block#: JipwO8J/9Y?q/g@uJ0_q
+      // Block#: #jsxs.(Ux2H9s)#ce![?
       com.fc.JavaScriptDistLib.Dialog.addBtn('Yes', _that.dialog)
       // Block#: Q?|TJwoZbh!YvuFNZmhO
       if(!_that.buttonClicked) {
-        // Block#: Yc8-SIFA?*0RMYc4kQu5
+        // Block#: pWe+[VfOa(}Ps%g!]7GF
         com.fc.JavaScriptDistLib.Dialog.show(_that.dialog, function(button_title) {
-          // Block#: 9*O%2Xl6;jqRhkIn14y-
+          // Block#: 5U:ronBN~plmatYOEYM~
           if(com.fc.JavaScriptDistLib.TextLib.textComparison(button_title, "EQUAL", 'Yes')) {
             // Block#: Gx7/h9`m?%z-x8:7BK*v
             _that.buttonClicked = true;
-            // Block#: F?|jo5.{R4i1`s3GT2n8
+            // Block#: v[{2.Fhj1s8X67_*RNFP
             _that.returnError = saveTaskAndNext(getOutcomeName('B11Cancel'));
           }
         })
@@ -8120,25 +8120,25 @@ $(document).ready(function() {
     }
   }
   com.fc.JavaScriptDistLib.ListView.setClickCallback('LVC24Medications', on_listview_cell_clicked_LVC24Medications);
-  // Block#: R@@DW6X[(`E`R@J:N1p1
+  // Block#: `hdzKBcX1/oQ!x8AX.(r
   function on_B25Cancel_click(e) {
     try {
-      // Block#: 3n;0TS4M}oVN8fJ@p8F[
+      // Block#: )M2#8YTTJ@kzOt[.R:NG
       _that.dialog = (com.fc.JavaScriptDistLib.Dialog.create(_that.genericDialogTitle, _that.genericDialogBody));
-      // Block#: (p[H*Fj]rDMI9rcWFffM
+      // Block#: Z~kk!#V+`5Vft_doH}[@
       com.fc.JavaScriptDistLib.Dialog.addCancelBtn('No', _that.dialog)
-      // Block#: U`-JhH3P{aKvlcx.^0qV
+      // Block#: fK*(~~7?mq!4HFT_7IY0
       com.fc.JavaScriptDistLib.Dialog.addBtn('Yes', _that.dialog)
       // Block#: jp5%;R/*.Lm0?wk}zh#6
       if(!_that.buttonClicked) {
-        // Block#: KDDA-J:NjSiO9#_k,i^S
+        // Block#: qlwhUFw~$U~S4LsA}gc;
         com.fc.JavaScriptDistLib.Dialog.show(_that.dialog, function(button_title) {
-          // Block#: kyqJtWl(#XnI|nJdSi:G
+          // Block#: IdM{WTSu`_l%x7$_i?#o
           if(com.fc.JavaScriptDistLib.TextLib.textComparison(button_title, "EQUAL", 'Yes')) {
             // Block#: cs~]f/(*f4hhK7DPGVL+
             _that.buttonClicked = true;
             // Block#: ,TSsgfK*/Dc1~AWg1VD#
-            com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S25AddMedication", true); // Block#: ^(5z[!1PhAR/2]2@3:14
+            com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S25AddMedication", true); // Block#: }4dlU-%y]CEn+3hSeUHw
             _that.returnError = saveTaskAndNext(getOutcomeName('B25Cancel'));
           }
         })
@@ -8187,19 +8187,19 @@ $(document).ready(function() {
     try {
       // Block#: YCr!ZE.oKdC/4eApgb4w
       if(!_that.buttonClicked) {
-        // Block#: @98:+7_o6,J0$p4;d0.[
+        // Block#: !4veJ)nptO@Cv]4D~XHc
         _that.dialog = (com.fc.JavaScriptDistLib.Dialog.create(_that.genericDialogTitle, _that.genericDialogBody));
-        // Block#: ]b,$7}lvTLgN.O``/Z/7
+        // Block#: cS~h~70G-FsKh=^r:iS1
         com.fc.JavaScriptDistLib.Dialog.addCancelBtn('No', _that.dialog)
-        // Block#: OA|=-AVd_4y74c*)SdzT
+        // Block#: {?tX],vRn6(4rUn3}]@F
         com.fc.JavaScriptDistLib.Dialog.addBtn('Yes', _that.dialog)
-        // Block#: L:%3i^:6d[Gr{~C*|?_e
+        // Block#: zTZAdETF+@%Ku4yq,ZqR
         com.fc.JavaScriptDistLib.Dialog.show(_that.dialog, function(button_title) {
-          // Block#: Mc|Ypx[WNOx4[W`qp53(
+          // Block#: njsMTF%SJ_Jy*0]E*$Z8
           if(com.fc.JavaScriptDistLib.TextLib.textComparison(button_title, "EQUAL", 'Yes')) {
             // Block#: g+zpBlrIg2CTcN)U;I-O
             _that.buttonClicked = true;
-            // Block#: *AZItur0E``jBs@n#mQp
+            // Block#: Q]zF8dVtw-y`YW8pwL,(
             _that.returnError = saveTaskAndNext(getOutcomeName('B9Cancel'));
           }
         })
@@ -8236,19 +8236,19 @@ $(document).ready(function() {
       if(!_that.buttonClicked) {
         // Block#: ?c$J.g0DUN1.sbr}Rg6o
         if(com.fc.JavaScriptDistLib.TextLib.textComparison(com.fc.JavaScriptDistLib.Button.getProperty["Text"]("B4Cancel"), "EQUAL", 'Cancel')) {
-          // Block#: A1Gt{DVT,w:,4q8tK[+)
+          // Block#: e{w*KJ:6o3zI^jB!e{wF
           _that.dialog = (com.fc.JavaScriptDistLib.Dialog.create(_that.genericDialogTitle, _that.genericDialogBody));
-          // Block#: %f84kpEp@o{+*{K5y1K3
+          // Block#: .K=f(?=VV%fTVf|`J$5Z
           com.fc.JavaScriptDistLib.Dialog.addCancelBtn('No', _that.dialog)
-          // Block#: [dN!+U;jsDW~bCwKhz:c
+          // Block#: @v^E6?`GWKCatAu+/Ul=
           com.fc.JavaScriptDistLib.Dialog.addBtn('Yes', _that.dialog)
-          // Block#: (@57GwF*rG%q0{Qu!64*
+          // Block#: aU*ps:H7LXjtoHnl{1(a
           com.fc.JavaScriptDistLib.Dialog.show(_that.dialog, function(button_title) {
-            // Block#: FpWjQ6St^A[lPLca[S3-
+            // Block#: N{z{nyV660K_+FkH,5tU
             if(com.fc.JavaScriptDistLib.TextLib.textComparison(button_title, "EQUAL", 'Yes')) {
               // Block#: ni:?/oakRxy!H/hgz@Oe
               _that.buttonClicked = true;
-              // Block#: 0QNm}FVMR,v4ITT8YQb-
+              // Block#: kGrD*]}84wHci$GOo=#d
               _that.returnError = saveTaskAndNext(getOutcomeName('B4Cancel'));
             }
           })
@@ -8265,14 +8265,14 @@ $(document).ready(function() {
     }
   };
   $('[obj-name="B4Cancel"]').on('click', on_B4Cancel_click);
-  // Block#: rce!bVC6_!jkr}sW[p(_
+  // Block#: :fKY(KQht:rwwT!X:guy
   function on_B22Back_click(e) {
     try {
-      // Block#: s7Z1!A/HK11=*VC|zEm5
+      // Block#: Y~K4;khYr1#O;XMN=NUo
       if(!_that.buttonClicked) {
-        // Block#: /06vUK:@z+@3(@o4o;kI
+        // Block#: lRzA^Cy!QIuaw[=I=cE1
         _that.buttonClicked = true;
-        // Block#: FB0JW8*70-RFN]~h7D+v
+        // Block#: bx[e}!]Dc[.4|n1.TG=p
         _that.returnError = saveTaskAndNext(getOutcomeName('B22Back'));
       }
       e.stopPropagation();
@@ -8377,21 +8377,21 @@ $(document).ready(function() {
   // Block#: WW#GN7f_[trA1mbtz_D2
   function on_B26Cancel_click(e) {
     try {
-      // Block#: /sJ_t^~`g?iJk%_7cX?P
+      // Block#: Q;bL3T1x#E[%/=J5bP4R
       _that.dialog = (com.fc.JavaScriptDistLib.Dialog.create(_that.genericDialogTitle, _that.genericDialogBody));
-      // Block#: d/q-0P=+.xDG*(p_U9GZ
+      // Block#: m`*{#)EKt}XY?m_1]LSJ
       com.fc.JavaScriptDistLib.Dialog.addCancelBtn('No', _that.dialog)
-      // Block#: jY6H(tqwVbup|cs8d=!z
+      // Block#: :~S.F^Sv2c]BssZTAFb~
       com.fc.JavaScriptDistLib.Dialog.addBtn('Yes', _that.dialog)
       // Block#: ;]O2HL|iaX2di$t$ecyF
       if(!_that.buttonClicked) {
-        // Block#: D{s(/s0KudP4*{Om;^^Z
+        // Block#: F8le}B@ZbSw]PO`qiqe9
         com.fc.JavaScriptDistLib.Dialog.show(_that.dialog, function(button_title) {
-          // Block#: [}v[3G}xZvi$0:?LFm^|
+          // Block#: k5cnDGrI%FLMQe$JMk,`
           if(com.fc.JavaScriptDistLib.TextLib.textComparison(button_title, "EQUAL", 'Yes')) {
             // Block#: [sX;mhysgO*.-ikIVTZt
             _that.buttonClicked = true;
-            // Block#: !h``6JUq}Nk04V6UjehL
+            // Block#: OZ6B5rN9.WHdmbrBu[PV
             _that.returnError = saveTaskAndNext(getOutcomeName('B26Cancel'));
           }
         })
@@ -8461,19 +8461,19 @@ $(document).ready(function() {
     try {
       // Block#: *x@4|Vcg:Fzo05`=O,|c
       if(!_that.buttonClicked) {
-        // Block#: [|==cvmJH;e]qI:i5Fb@
+        // Block#: QhVX:Ruuv6UuL|[QKHne
         _that.dialog = (com.fc.JavaScriptDistLib.Dialog.create(_that.genericDialogTitle, _that.genericDialogBody));
-        // Block#: BBU!ZNj`M10vCRi-9+u4
+        // Block#: -3`H$X.^]})z`wUe4ye^
         com.fc.JavaScriptDistLib.Dialog.addCancelBtn('No', _that.dialog)
-        // Block#: dhK:Y}1Ud*fbg|kT1f;W
+        // Block#: o^#8I{QV8:uw=xn+0f^k
         com.fc.JavaScriptDistLib.Dialog.addBtn('Yes', _that.dialog)
-        // Block#: {0TxR?5hTPv}udwdnK$(
+        // Block#: yMDQk?{}m?z7!le1VIPP
         com.fc.JavaScriptDistLib.Dialog.show(_that.dialog, function(button_title) {
-          // Block#: :=/eAXZ9/_[kFwr/]-G_
+          // Block#: GGr8F0Cgn(*D0%(^T](?
           if(com.fc.JavaScriptDistLib.TextLib.textComparison(button_title, "EQUAL", 'Yes')) {
             // Block#: K%;=Jh9#f||:xDdU)#Zy
             _that.buttonClicked = true;
-            // Block#: PEIGblU61g~YAw-*-Qtk
+            // Block#: TlF8pmZMF[-AS[6w+?H1
             _that.returnError = saveTaskAndNext(getOutcomeName('B8Cancel'));
           }
         })
@@ -8534,13 +8534,13 @@ $(document).ready(function() {
     }
   };
   $('[obj-name="B3Next"]').on('click', on_B3Next_click);
-  // Block#: c-EksG@OCvCz:Wv:7nVA
+  // Block#: C]!3Yat(ID/pjJ4)=Eey
   var elemSelector = '[obj-name="T23Text"]';
   var originalText = $(elemSelector).find("input").val();
   $(elemSelector).find("input").on('input', function(e) {
     var oldText = originalText;
     var newText = $(this).val();
-    // Block#: ndhgIu2ZutUi_GWK:L,m
+    // Block#: GC1CgQO1YcfCUrV.VoVI
     _that.selectionMade = false;
     // Block#: h;RV%WVv-h6LTq3f8PO.
     $('[obj-name="L23Error"]').hide(); // Block#: =V|}$djvt4LKriA)=7J@
@@ -8617,11 +8617,11 @@ $(document).ready(function() {
   // Block#: t4*P6(%eT|v#bDFvZnaD
   function on_B28Skip_click(e) {
     try {
-      // Block#: xT*C[sXCMF%*UYx.m,Uc
+      // Block#: xMc0~3~Nt/MX$)H;l_i4
       if(!_that.buttonClicked) {
-        // Block#: x0C$Husw%paZ]vuuUfpZ
+        // Block#: X+7OCv+;L?5m~2[n}w,o
         _that.buttonClicked = true;
-        // Block#: 5G2x_X812~S;=HtFzz.N
+        // Block#: naJv3Y8fd!qhZ4uTZdyE
         _that.returnError = saveTaskAndNext(getOutcomeName('B28Skip'));
       }
       e.stopPropagation();
@@ -8637,20 +8637,20 @@ $(document).ready(function() {
       if(!_that.buttonClicked) {
         // Block#: r_r;nnRqXw1PD8^dYcp_
         if(!_that.isLoggingIn) {
-          // Block#: U^?SKR?VkUcU(E|j83+~
+          // Block#: =X%,u{eIOgWNy.RMp+$Z
           _that.dialog = (com.fc.JavaScriptDistLib.Dialog.create(_that.genericDialogTitle, _that.genericDialogBody));
-          // Block#: %U()S}9}5.h0@!iAi,^R
+          // Block#: ]O6SSHAdUP~]2b.IZ:O!
           com.fc.JavaScriptDistLib.Dialog.addCancelBtn('No', _that.dialog)
-          // Block#: rdXy(Oh2?@19iNcv8zCD
+          // Block#: q%`Ea3ZY~5[4:V9Npo_c
           com.fc.JavaScriptDistLib.Dialog.addBtn('Yes', _that.dialog)
-          // Block#: |1u0S$889+wPg,N{4.-R
+          // Block#: AX/T:I=`1FPG?-N{,EiE
           com.fc.JavaScriptDistLib.Dialog.show(_that.dialog, function(button_title) {
-            // Block#: O8-NTA7x43b~cv]=$fHs
+            // Block#: u;=G8:JYF!xP:s;B`eSu
             if(com.fc.JavaScriptDistLib.TextLib.textComparison(button_title, "EQUAL", 'Yes')) {
               // Block#: gj@9VUw{@7;V|k.x%(Tv
               _that.buttonClicked = true;
               // Block#: o+58L?mFdh}ju*a*PHlf
-              com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S12Email", true); // Block#: 9(v5m[rXaw?u{[C(oS-b
+              com.fc.JavaScriptDistLib.Screen.setProperty["Loader Visible"]("S12Email", true); // Block#: :!EG5GbYbXz04PKH6hY|
               _that.returnError = saveTaskAndNext(getOutcomeName('B12Cancel'));
             }
           })
@@ -8675,24 +8675,24 @@ $(document).ready(function() {
     }
   };
   $('[obj-name="B12Cancel"]').on('click', on_B12Cancel_click);
-  // Block#: /[[r1:l-E47:KX;IjSD^
+  // Block#: L=4f:H-bb?rQNVo2]R?,
   function on_B22Cancel_click(e) {
     try {
-      // Block#: B~I`Q{Plm~lbHC_v3FEo
+      // Block#: /SGH`zg5_g|W55,o{v{Y
       _that.dialog = (com.fc.JavaScriptDistLib.Dialog.create(_that.genericDialogTitle, _that.genericDialogBody));
-      // Block#: dx?TvX?}77KK12d%pfcj
+      // Block#: s}xfe_rf^yoK.%,L)nCs
       com.fc.JavaScriptDistLib.Dialog.addCancelBtn('No', _that.dialog)
-      // Block#: L`O]BA+u8@ltJ-jqxw1_
+      // Block#: /qmzQ__DdlO#5F]rn8s?
       com.fc.JavaScriptDistLib.Dialog.addBtn('Yes', _that.dialog)
       // Block#: d9rzCZamz!c}ydq7R#:X
       if(!_that.buttonClicked) {
-        // Block#: Kb0~m.uY{tL3M06m#gE2
+        // Block#: _^r5/GbVe!l.7pUz{~~A
         com.fc.JavaScriptDistLib.Dialog.show(_that.dialog, function(button_title) {
-          // Block#: _hSQ=.o9aXV$O7F%9T;)
+          // Block#: +8sv$h$;U$j}U-hDj!4e
           if(com.fc.JavaScriptDistLib.TextLib.textComparison(button_title, "EQUAL", 'Yes')) {
             // Block#: RfrxUqVkN:Cek2iv[be9
             _that.buttonClicked = true;
-            // Block#: @.56A_yM`;k[ng{^^G/3
+            // Block#: 5xPnKIol5Ul.N-Bm?`:l
             _that.returnError = saveTaskAndNext(getOutcomeName('B22Cancel'));
           }
         })
@@ -9015,21 +9015,21 @@ $(document).ready(function() {
   // Block#: TQi{D;=0*foI,DOZ`Z*_
   function on_B20Cancel_click(e) {
     try {
-      // Block#: ,pL~Arew*=iqM}0Qrs.g
+      // Block#: aRcW4]$^rGlcEYo=0f|n
       _that.dialog = (com.fc.JavaScriptDistLib.Dialog.create(_that.genericDialogTitle, _that.genericDialogBody));
-      // Block#: ~NJ/4M/LZ)vZH4/Zqqo[
+      // Block#: QM+STjaedCg3~=2@WS|$
       com.fc.JavaScriptDistLib.Dialog.addCancelBtn('No', _that.dialog)
-      // Block#: I$wGt#V8@XRHQtk`BBUb
+      // Block#: [VE-VRX[c(bc1L%=cXJq
       com.fc.JavaScriptDistLib.Dialog.addBtn('Yes', _that.dialog)
       // Block#: ?!lOx1yd|x+^V]ruy58m
       if(!_that.buttonClicked) {
-        // Block#: +dZK-|_0k|O88?EXqm7}
+        // Block#: 5Heqxo]gL-fe)8,u=9na
         com.fc.JavaScriptDistLib.Dialog.show(_that.dialog, function(button_title) {
-          // Block#: _`%h7HY]qaKTd/=*CT$`
+          // Block#: {-KmF_8KV67nqSC5Xe)B
           if(com.fc.JavaScriptDistLib.TextLib.textComparison(button_title, "EQUAL", 'Yes')) {
             // Block#: 3B40L?;)-syhgx68xEhf
             _that.buttonClicked = true;
-            // Block#: `.O~XRd0AcoqXe-vvct]
+            // Block#: Olu77s#.C$WHCfZx6RY+
             _that.returnError = saveTaskAndNext(getOutcomeName('B20Cancel'));
           }
         })
@@ -9203,12 +9203,12 @@ $(document).ready(function() {
     }
   };
   $('[obj-name="B2Q4No"]').on('click', on_B2Q4No_click);
-  // Block#: )Wr03/=.L)4ztBxtiwe$
+  // Block#: NthjILmYSaHOQy}f02Cq
   function on_B25Next_click(e) {
     try {
       // Block#: !pY~L5,8C#/h:CfS-Cp!
       _that.selectedMedsCsv = '';
-      // Block#: 73zQdQyLcoIa:XT5/pV)
+      // Block#: wq$|9CXeNKdS@:JBXpF$
       if(!_that.buttonClicked && _that.selectionMade) {
         // Block#: 9Gq4B)989}Q9Dfp`deP)
         var index_end19 = _that.selectedMeds.length - 1;
@@ -9255,21 +9255,21 @@ $(document).ready(function() {
   // Block#: :*ppsFA%JreVomn]p9-,
   function on_B28Cancel_click(e) {
     try {
-      // Block#: LwKYO7r_d[qM%fU$,XLy
+      // Block#: .++];-H1VB3IBkS*t`DM
       _that.dialog = (com.fc.JavaScriptDistLib.Dialog.create(_that.genericDialogTitle, _that.genericDialogBody));
-      // Block#: HzF/c;?%n`FlsIo_uEA_
+      // Block#: JeMZ!xmqC9fJ|[)CJ;?D
       com.fc.JavaScriptDistLib.Dialog.addCancelBtn('No', _that.dialog)
-      // Block#: 47^,a%qnw~Vl=a;L!y55
+      // Block#: n:[.FWNHHVq(p@p:S*Tp
       com.fc.JavaScriptDistLib.Dialog.addBtn('Yes', _that.dialog)
-      // Block#: 7g^m?BdzY?hFM(C@Y^Aa
+      // Block#: #RV=fCNV}aghG6z4c|!_
       if(!_that.buttonClicked) {
-        // Block#: oEpLBzFvvfRd_e~;)f0W
+        // Block#: CFrtKkq_QsId-l(O[-qK
         com.fc.JavaScriptDistLib.Dialog.show(_that.dialog, function(button_title) {
-          // Block#: QQYlrO;9mhTjGcm%s7V-
+          // Block#: ovNTav^F9C@2Gew2O:VE
           if(com.fc.JavaScriptDistLib.TextLib.textComparison(button_title, "EQUAL", 'Yes')) {
-            // Block#: 2x6Tpg1M*-`CrSA~+%N]
+            // Block#: {;Nx1^-;T8BtD~vNksvV
             _that.buttonClicked = true;
-            // Block#: W:I|tMx68@p)2=%|SmXz
+            // Block#: r-)K?7AbNH)dRIw6C5V4
             _that.returnError = saveTaskAndNext(getOutcomeName('B28Cancel'));
           }
         })
@@ -9851,4 +9851,4 @@ $(document).ready(function() {
   $('[obj-name="SplashScreen"]').show();
 });
 // Generated by snapp
-// 366293-901910-664311-117236
+// 471637-626035-208160-835847
