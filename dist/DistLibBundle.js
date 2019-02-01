@@ -17322,27 +17322,27 @@ moment.tz.load(__webpack_require__(182));
 "use strict";
 class Core {
 
-    constructor() {}
+  constructor() {}
 
-    /**
+  /**
      * With the new ES6 Dist Lib this file is referenced as external script
      * here the default 'production style' exception handling is defined
      */
-    handleExceptionNative (e) {
-        console.warn('Exception: ', e);
+  handleExceptionNative (e) {
+    console.warn("Exception: ", e);
 
-        if (window.parent) {
-            window.parent.com.fc.JavaScriptGenerator.handleExceptionNative(e);
-        }
+    if (window.parent) {
+      window.parent.com.fc.JavaScriptGenerator.handleExceptionNative(e);
     }
+  }
 
-    reset () {
-        let thisObject = this;
-        Object.keys(thisObject).forEach( function(key) {
-            if ((typeof thisObject[key].reset) === 'function') thisObject[key].reset();
-            //console.log('type of:',typeof obj.reset);
-        });
-    }
+  reset () {
+    let thisObject = this;
+    Object.keys(thisObject).forEach( function(key) {
+      if ((typeof thisObject[key].reset) === "function") thisObject[key].reset();
+      //console.log('type of:',typeof obj.reset);
+    });
+  }
 }
 
 // ES6 exports
@@ -22514,97 +22514,97 @@ class NetworkObject {
 
 class NotificationObject {
 
-    constructor() {
-        this.notificationCallBack = null;
-        this.notifications = [];
-    }
+  constructor() {
+    this.notificationCallBack = null;
+    this.notifications = [];
+  }
 
-    configure(callback) {
-        this.notificationCallBack = callback;
-    }
+  configure(callback) {
+    this.notificationCallBack = callback;
+  }
 
-    create (title, text) {
-        let notification = {};
-        notification["title"] = title;
-        notification["bodytext"] = text;
-        this.notifications.push(notification);
-        return notification;
-    }
+  create (title, text) {
+    let notification = {};
+    notification["title"] = title;
+    notification["bodytext"] = text;
+    this.notifications.push(notification);
+    return notification;
+  }
 
-    getTitle (notification) {
-        return notification["title"];
-    }
+  getTitle (notification) {
+    return notification["title"];
+  }
 
-    getText (notification) {
-        return notification["bodytext"];
-    }
+  getText (notification) {
+    return notification["bodytext"];
+  }
 
-    schedule (time, notification) {
-        let self = this;
-        let scheduledTime = time;
-        notification["timerid"] = setInterval(function(){
-            let currTime = new Date();
-            if (currTime.toString() == scheduledTime.toString()) {
-                self.notify(notification);
-                clearInterval(notification["timerid"]);
-            }
-        },1000);
-    }
+  schedule (time, notification) {
+    let self = this;
+    let scheduledTime = time;
+    notification["timerid"] = setInterval(function(){
+      let currTime = new Date();
+      if (currTime.toString() == scheduledTime.toString()) {
+        self.notify(notification);
+        clearInterval(notification["timerid"]);
+      }
+    },1000);
+  }
 
-    cancel (notification) {
-        this.cancelNotification(notification);
-    }
+  cancel (notification) {
+    this.cancelNotification(notification);
+  }
 
-    cancelAll () {
-        let self = this;
-        self.notifications.forEach(function (notification) {
-             self.cancelNotification(notification);
-        });
-    }
+  cancelAll () {
+    let self = this;
+    self.notifications.forEach(function (notification) {
+      self.cancelNotification(notification);
+    });
+  }
 
-    cancelNotification(notification) {
-        if( notification!= undefined ) {
-            clearInterval(notification["timerid"]);
-            if( notification["notobject"]!=undefined ) {
-                notification["notobject"].close();
-                notification["notobject"] = null;
-            }
-        }
+  cancelNotification(notification) {
+    if( notification!= undefined ) {
+      clearInterval(notification["timerid"]);
+      if( notification["notobject"]!=undefined ) {
+        notification["notobject"].close();
+        notification["notobject"] = null;
+      }
     }
+  }
 
-    notify (notification) {
-        let self = this;
+  notify (notification) {
+    let self = this;
         
-        if (!("Notification" in window)) {
-            console.error("Notification not supported");
-        }
-        else if (Notification.permission === "granted") {
-            self.displayNotification(notification);
-        }
-        else if (Notification.permission !== "denied") {
-            Notification.requestPermission(function (permission) {
-              // If the user accepts, let's create a notification
-              if (permission === "granted") {
-                self.displayNotification(notification);
-              }
-            });
-        }
+    if (!("Notification" in window)) {
+      console.error("Notification not supported");
     }
-
-    displayNotification(notification) {
-        let self = this;
-        let title = notification["title"].replace(/'/g,'');
-        let bodyText = notification["bodytext"].replace(/'/g,'');
-
-        notification["notobject"] = new Notification(title, { body: bodyText, 
-            requireInteraction: true});
-        notification["notobject"].onclick = function(event) {
-            event.preventDefault();
-            this.close();
-            if( self.notificationCallBack!=null )
-                self.notificationCallBack(notification);
-        };
+    else if (Notification.permission === "granted") {
+      self.displayNotification(notification);
     }
+    else if (Notification.permission !== "denied") {
+      Notification.requestPermission(function (permission) {
+        // If the user accepts, let's create a notification
+        if (permission === "granted") {
+          self.displayNotification(notification);
+        }
+      });
+    }
+  }
+
+  displayNotification(notification) {
+    let self = this;
+    let title = notification["title"].replace(/'/g,"");
+    let bodyText = notification["bodytext"].replace(/'/g,"");
+
+    notification["notobject"] = new Notification(title, { body: bodyText, 
+      requireInteraction: true});
+    notification["notobject"].onclick = function(event) {
+      event.preventDefault();
+      this.close();
+      if( self.notificationCallBack!=null )
+        self.notificationCallBack(notification);
+    };
+  }
 
 }
 
@@ -24262,6 +24262,22 @@ class SnapClinicalObject {
       return; 
     }
     
+  }
+
+  async logout(successCallback, failureCallback) {
+    try {
+      let currentToken;
+      currentToken = __WEBPACK_IMPORTED_MODULE_0_snapclinical__["client"].tokenObj["access_token"];
+      await __WEBPACK_IMPORTED_MODULE_0_snapclinical__["oauthService"].revokeToken(currentToken);
+      __WEBPACK_IMPORTED_MODULE_0_snapclinical__["client"].tokenObj = null;
+      successCallback();
+      return;
+    }
+    catch(e) {
+      console.warn("Error in snapClinical.logout", e);
+      failureCallback(e);
+      return;
+    }
   }
 
 }
@@ -26796,17 +26812,12 @@ class Client {
             body: body
         };
 
-        // use this as temporary fix to avoid changing all the libraries to test oauth
-        if (this._config.enableOauth && url.indexOf(`/flowable-task/`) > -1)
-            url = url.replace(`/flowable-task/`, `/${this._config.contextPath.flowable}/`); 
-
-        // append ports info to the url (necessary for local tests)
         let ports = '';
         if (url.indexOf(`/${this._config.contextPath.oauth}/`) > -1 && this._config.ports.oauth)
             ports = `${this._config.ports.oauth}`;
-        else if (url.indexOf(`/${this._config.contextPath.flowable}/`) > -1 && this._config.ports.flowable)
+        else if (url.indexOf(`/${this._config.contextPath.flowable}`) > -1 && this._config.ports.flowable)
             ports = `${this._config.ports.flowable}`;
-        else if (url.indexOf(`/${this._config.contextPath.snap}/`) > -1 && this._config.ports.snap)
+        else if (url.indexOf(`/${this._config.contextPath.snap}`) > -1 && this._config.ports.snap)
             ports = `${this._config.ports.snap}`;
 
         const fetchUrl = this._config.apiBaseUrl + ports + url +
@@ -26815,9 +26826,10 @@ class Client {
         let fetchRequest = new Request(fetchUrl, requestData);
 
         if (this._config.enableOauth){
-            // use Token Based Authentication 
+            // use oauth 
             const response = await fetch(fetchRequest)
             const responseStatus = response.status || 0;
+
             if (responseStatus === 401 && this._config.tokenObj){
                 // in case token expired try to refresh it
                 const json = await response.json();
@@ -26825,12 +26837,10 @@ class Client {
                 if (json.error === 'invalid_token' && json.error_description === tokenExpiredMsg){
                     return await this.tokenOnExpired(fetchUrl, requestData)
                 }
-                return json;
             } else {
                 return response;
             } 
         } else {
-            // fetch for Basic Authentication
             return fetch(fetchRequest);
         }
     }
@@ -29013,6 +29023,7 @@ class OauthService {
         const fetchRequest = new Request(fetchUrl, requestData); 
 
         let response = await fetch(fetchRequest);
+
         if (response.status === 200) { // 200 OK
             let json = await response.json();
             __WEBPACK_IMPORTED_MODULE_0__Client__["a" /* client */].tokenObj = json;
@@ -29020,7 +29031,7 @@ class OauthService {
         }
         else {
             let json = await response.json();
-            throw new Error("getToken failed: " + json.error, json.error_description);
+            throw new Error("getToken failed,\nerror message: " + json.message);
         }
     }
     /**
@@ -29041,29 +29052,7 @@ class OauthService {
             'Authorization': `Basic ${btoa(`${__WEBPACK_IMPORTED_MODULE_0__Client__["a" /* client */].oauthId}:${__WEBPACK_IMPORTED_MODULE_0__Client__["a" /* client */].oauthPw}`)}`
         };
 
-        const requestData = {
-            method: "POST",
-            headers: new Headers(fetchHeaders),
-            mode: 'cors',
-            cache: 'default',
-            body: {}
-        };
-
-        let fetchParams = new URLSearchParams();
-        for (let key in params) {
-            fetchParams.append(key, params[key]);
-        }
-        const fetchParamsString = fetchParams.toString();
-
-        let url = `/${__WEBPACK_IMPORTED_MODULE_0__Client__["a" /* client */].contextPath.oauth}/oauth/token`;
-        let ports = '';
-        if (url.indexOf(__WEBPACK_IMPORTED_MODULE_0__Client__["a" /* client */].contextPath.oauth) > -1 && __WEBPACK_IMPORTED_MODULE_0__Client__["a" /* client */].ports.oauth)
-            ports = `${__WEBPACK_IMPORTED_MODULE_0__Client__["a" /* client */].ports.oauth}`;
-
-        const fetchUrl = __WEBPACK_IMPORTED_MODULE_0__Client__["a" /* client */].apiBaseUrl + ports + url +  (fetchParamsString.length > 0 ? '?' + fetchParamsString : '');
-        const fetchRequest = new Request(fetchUrl, requestData); 
-
-        let response = await fetch(fetchRequest);
+        let response = await __WEBPACK_IMPORTED_MODULE_0__Client__["a" /* client */].fetch(`/${__WEBPACK_IMPORTED_MODULE_0__Client__["a" /* client */].contextPath.oauth}/oauth/token`, "POST", params,  {}, fetchHeaders);
         if (response.status === 200) { // 200 OK
             let json = await response.json();
             __WEBPACK_IMPORTED_MODULE_0__Client__["a" /* client */].tokenObj = json;
@@ -29071,55 +29060,7 @@ class OauthService {
         }
         else {
             let json = await response.json();
-            throw new Error("refreshToken failed: " + json.error, json.error_description);
-        }
-    }
-
-    /**
-     * revoke the current token
-     * @param {*} tokenId 
-     */
-    async revokeToken(tokenId){
-        Object(__WEBPACK_IMPORTED_MODULE_1__utility_ValidationUtility__["f" /* validate */])( this.constructor.name + '.revokeToken', Object(__WEBPACK_IMPORTED_MODULE_1__utility_ValidationUtility__["e" /* isRequired */])({tokenId}));
-
-        let response = await __WEBPACK_IMPORTED_MODULE_0__Client__["a" /* client */].fetch(`/${__WEBPACK_IMPORTED_MODULE_0__Client__["a" /* client */].contextPath.oauth}/tokens/revokeById/${tokenId}`, "GET");
-        if (response.status === 200) { // 200 OK
-            return response.status;
-        } else {
-            let json = await response.json();
-            throw new Error("getTokensInfo failed: " + json.error, json.error_description);
-        }
-    }
-
-    /**
-     * get tokens info
-     */
-    async getTokensInfo(){
-        Object(__WEBPACK_IMPORTED_MODULE_1__utility_ValidationUtility__["f" /* validate */])( this.constructor.name + '.getTokensInfo');
-
-        let response = await __WEBPACK_IMPORTED_MODULE_0__Client__["a" /* client */].fetch(`/${__WEBPACK_IMPORTED_MODULE_0__Client__["a" /* client */].contextPath.oauth}/tokens/info`, "GET");
-        if (response.status === 200) { // 200 OK
-            return response.json();
-        } else {
-            let json = await response.json();
-            throw new Error("getTokensInfo failed: " + json.error, json.error_description);
-        }
-    }
-
-    /**
-     * get tokens list
-     * @param {*} tokenId 
-     */
-    async getTokens(clientId){
-        Object(__WEBPACK_IMPORTED_MODULE_1__utility_ValidationUtility__["f" /* validate */])( this.constructor.name + '.getTokens', Object(__WEBPACK_IMPORTED_MODULE_1__utility_ValidationUtility__["e" /* isRequired */])({clientId}));
-
-        let response = await __WEBPACK_IMPORTED_MODULE_0__Client__["a" /* client */].fetch(`/${__WEBPACK_IMPORTED_MODULE_0__Client__["a" /* client */].contextPath.oauth}/tokens/${clientId}`, "GET");
-        if (response.status === 200) { // 200 OK
-            return response.json();
-        }
-        else {
-            let json = await response.json();
-            throw new Error("getTokens failed: " + json.error, json.error_description);
+            throw new Error("refreshToken failed,\nerror message: " + json.message);
         }
     }
 }
@@ -29138,7 +29079,7 @@ class Version {
      * Prints the current lib version on the console log
      */
     static print() {
-        console.log("snapClinical JS SDK Version: " + "1.2.2" );
+        console.log("snapClinical JS SDK Version: " + "1.2.1" );
     }
 
     /**
@@ -29146,7 +29087,7 @@ class Version {
      * @return (String)     - the current js sdk library version
      */
     static get() {
-        return ("snapClinical JS SDK Version: " + "1.2.2" );
+        return ("snapClinical JS SDK Version: " + "1.2.1" );
     }
 
 }
